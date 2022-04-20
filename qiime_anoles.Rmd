@@ -23,7 +23,7 @@ library(qiime2R)
 library(plyr)
 library(ANCOMBC)
 library(microbiome)
-#library(nplotr) didnt work dont know why or what this is even for
+#library(nplotr)
 library(rmeta)
 library(readr)
 library(vegan)
@@ -71,13 +71,12 @@ sample_data(allps)
 
 
 
-## breakdown the full ps object then prune bad samples
+## breakdown the full ps object then prune samples
 
 ``` {r, echo = T, eval = T}
 # ID samples to prune from anoles = AF107, AF008, and AF086
 psM <- subset_samples(allps, env_feature == "AnoleFeces") %>% subset_samples(scientific_name == "cristatellus") %>% subset_samples(description == "Mayaguez Forest" | description == "Mayaguez Urban" | description =="Maricao Rocks" | description =="AirBnB")
 taxa_barpsM = plot_bar(psM, fill = "Phylum", x = "ID")
-taxa_barpsM
 psM.prune <- subset_samples(psM, ID !="AF107" & ID !="AF008" & ID !="AF086")
 
 
@@ -92,8 +91,7 @@ psH <- subset_samples(allps, env_feature == "HumanFeces") %>% subset_samples(lif
 taxa_barpsH = plot_bar(psH, fill = "Phylum", x = "ID")
 taxa_barpsH + theme(legend.position = "none")
 psH.prune <- prune_samples(sample_sums(psH)>=300000, psH)
-mean(sample_sums(psH))
-sample_sums(psH)
+
 
 
 
@@ -103,7 +101,7 @@ sample_sums(psH)
 ```
 
 
-## Make all of the required ps objects. for each first combine and then rarefy
+## Make all of the required ps objects. First combine and then rarefy
 
 ``` {r, echo = T, eval = T}
 #Maya anoles
@@ -123,20 +121,16 @@ psVM.rare = rarefy_even_depth(psVM, rngseed=1, sample.size=0.9*min(sample_sums(p
 
 #adult Malawi Human and Maya anoles 
 psMAM <- subset_samples(psH.prune, description =="Malawi") %>% merge_phyloseq(psM.prune)
-sample_data(psMaM)
 psMAM.rare = rarefy_even_depth(psMAM, rngseed=1, sample.size=0.9*min(sample_sums(psMAM)), replace=F)
 
 
 #adult USA Human, Maya anoles, and coyotes with duodenal
 psUMC.duo <- subset_samples(psH.prune, description =="USA") %>% merge_phyloseq(psM.prune, psC.prune)
-sample_data(psUMC.duo)
 psUMC.duo.rare = rarefy_even_depth(psUMC.duo, rngseed=1, sample.size=0.9*min(sample_sums(psUMC.duo)), replace=F)
 
 
 #adult USA Human, Maya anoles, and coyotes without duodenal
 psUMC <- subset_samples(psUMC.duo, description != "Urban coyote duodenal samples")
-sample_data(psUMC)
-sample_data(ps.prune)
 psUMC.rare = rarefy_even_depth(psUMC, rngseed=1, sample.size=0.9*min(sample_sums(psUMC)), replace=F)
 
 #coyotes
@@ -150,12 +144,12 @@ psAll.rare = rarefy_even_depth(psAll.prune, rngseed=1, sample.size=0.9*min(sampl
 #adult Venezuela Human, Maya anoles, and non duo coyptes
 psVMC <- merge_phyloseq(psVM, psC.prune) %>% subset_samples(description != "Urban coyote duodenal samples")
 psVMC.rare = rarefy_even_depth(psVMC, rngseed=1, sample.size=0.9*min(sample_sums(psVMC)), replace=F)
-sample_data(psVMC.rare)
+
 
 #adult Malawi Human, Maya anoles, and non duo coyptes
 psMAMC <- merge_phyloseq(psMAM, psC.prune) %>% subset_samples(description != "Urban coyote duodenal samples")
 psMAMC.rare = rarefy_even_depth(psMAMC, rngseed=1, sample.size=0.9*min(sample_sums(psMAMC)), replace=F)
-sample_data(psMAMC.rare)
+
 
 #adult USA and Malawi Humans
 psANCOM.USA.Malawi <- subset_samples(psH.prune, description =="Malawi" | description =="USA")
@@ -169,7 +163,7 @@ psANCOM.USA.Venezuela.rare <- rarefy_even_depth(psANCOM.USA.Venezuela, rngseed=1
 
 
 ## Start of analysis for adult USA Humans and Maya anoles
-## Ordinate to a distance matrix -> plot via different methods -> run stats on the distance matrix -> make distance   boxplots in qiime
+## Ordinate to a distance matrix -> plot via different methods -> run stats on the distance matrix -> make distance boxplots in qiime
 
 ## Maya anoles
 
@@ -182,9 +176,7 @@ psM.rare.distance.dice <- phyloseq::distance(psM.rare, method = "bray", binary =
 
 psUM.distance.bray.matrix <- as.matrix(psUM.distance.bray)
 psUM.distance.bray.df  <- as.data.frame(psUM.distance.bray.matrix) %>% rownames_to_column(var = " ")
-psUM.distance.bray.df
 write_tsv(psUM.distance.jacc.df, file ="psUM_dist_jacc.tsv")
-psUM.distance.jacc.df
 
 #ordinate the distance matrices using PCoA
 psUM.PCoA.dice = ordinate(psUM.rare, "PCoA", distance= psUM.distance.dice)
@@ -194,49 +186,10 @@ psUM.PCoA.bray = ordinate(psUM.rare, "PCoA", distance= psUM.distance.bray)
 psUM.PCoA.dice.plot <- plot_ordination(psUM.rare, psUM.PCoA.dice, color="description", title = "Dice")
 psUM.PCoA.bray.plot <- plot_ordination(psUM.rare, psUM.PCoA.bray, color="description", title = "Bray")
 
- psUM.PCoA.dice.plot
- psUM.PCoA.bray.plot
 
-# Try some of the different ordination methods
-#psUM.DCA.bray = ordinate(psUM, "DCA", distance= psUM.distance.bray)
-#psUM.CCA.bray = ordinate(psUM, "CCA", distance= psUM.distance.bray)
-#psUM.RDA.bray = ordinate(psUM, "RDA", distance= psUM.distance.bray)
+
 psUM.NMDS.bray = ordinate(psUM.rare, "NMDS", distance= psUM.distance.bray)
 psUM.NMDS.dice = ordinate(psUM.rare, "NMDS", distance= psUM.distance.dice)
-#psUM.MDS.bray = ordinate(psUM, "MDS", distance= psUM.distance.bray)
-
-psUM.NMDS.bray
-psUM.NMDS.dice
-
-
-#psUM.DCA.bray.plot <- plot_ordination(psUM, psUM.DCA.bray, color="description", title = "DCA")
-#psUM.CCA.bray.plot <- plot_ordination(psUM, psUM.CCA.bray,type = "life_stage", color="description", title = "CCA")
-#psUM.RDA.bray.plot <- plot_ordination(psUM, psUM.RDA.bray, color="description", title = "RDA")
-plot_ordination(psUM.rare, psUM.NMDS.bray, color="description", title = "NMDS")
-#psUM.MDS.bray.plot <- plot_ordination(psUM, psUM.MDS.bray, color="description", title = "MDS")
-
-
-# all the ordination methods for Bray
-
-dist = psM.rare.distance.dice
-ord_meths = c("DCA", "CCA", "RDA", "NMDS", "MDS", "PCoA")
-
-plist = llply(as.list(ord_meths), function(i, physeq, dist){
-        ordi = ordinate(physeq, method=i, distance=dist)
-        plot_ordination(physeq, ordi, color="description")
-}, psM.rare, dist)
-
-names(plist) <- ord_meths
-
-pdataframe = ldply(plist, function(x){
-    df = x$data[, 1:2]
-    colnames(df) = c("Axis_1", "Axis_2")
-    return(cbind(df, x$data))
-})
-names(pdataframe)[1] = "method"
-
-
-ggplot(pdataframe, aes(Axis_1, Axis_2, color=description)) + geom_point() + facet_wrap(~method, scales="free") + scale_color_manual(values = c("#08306B", "#2171B5", "#C6DBEF", "#6BAED6")) + theme_dark() + ggtitle(label= "psM dice")
 
 
 
@@ -254,9 +207,8 @@ psUM.distance.dice <- phyloseq::distance(psUM.rare, method = "bray", binary = TR
 
 psUM.distance.bray.matrix <- as.matrix(psUM.distance.bray)
 psUM.distance.bray.df  <- as.data.frame(psUM.distance.bray.matrix) %>% rownames_to_column(var = " ")
-psUM.distance.bray.df
 write_tsv(psUM.distance.jacc.df, file ="psUM_dist_jacc.tsv")
-psUM.distance.jacc.df
+
 
 #ordinate the distance matrices using PCoA
 psUM.PCoA.dice = ordinate(psUM.rare, "PCoA", distance= psUM.distance.dice)
@@ -266,51 +218,17 @@ psUM.PCoA.bray = ordinate(psUM.rare, "PCoA", distance= psUM.distance.bray)
 psUM.PCoA.dice.plot <- plot_ordination(psUM.rare, psUM.PCoA.dice, color="description", title = "Dice")
 psUM.PCoA.bray.plot <- plot_ordination(psUM.rare, psUM.PCoA.bray, color="description", title = "Bray")
 
- psUM.PCoA.dice.plot
- psUM.PCoA.bray.plot
 
 # Try some of the different ordination methods
-#psUM.DCA.bray = ordinate(psUM, "DCA", distance= psUM.distance.bray)
-#psUM.CCA.bray = ordinate(psUM, "CCA", distance= psUM.distance.bray)
-#psUM.RDA.bray = ordinate(psUM, "RDA", distance= psUM.distance.bray)
+
 psUM.NMDS.bray = ordinate(psUM.rare, "NMDS", distance= psUM.distance.bray)
 psUM.NMDS.dice = ordinate(psUM.rare, "NMDS", distance= psUM.distance.dice)
-#psUM.MDS.bray = ordinate(psUM, "MDS", distance= psUM.distance.bray)
 
 
 
-
-
-#psUM.DCA.bray.plot <- plot_ordination(psUM, psUM.DCA.bray, color="description", title = "DCA")
-#psUM.CCA.bray.plot <- plot_ordination(psUM, psUM.CCA.bray,type = "life_stage", color="description", title = "CCA")
-#psUM.RDA.bray.plot <- plot_ordination(psUM, psUM.RDA.bray, color="description", title = "RDA")
 psUM.NMDS.bray.plot = plot_ordination(psUM.rare, psUM.NMDS.bray, color="description")
 psUM.NMDS.dice.plot = plot_ordination(psUM.rare, psUM.NMDS.dice, color="description")
-#psUM.MDS.bray.plot <- plot_ordination(psUM, psUM.MDS.bray, color="description", title = "MDS")
 psUM.NMDS.bray.plot + scale_color_manual(values = c("#08306B", "#2171B5", "#C6DBEF", "#6BAED6", "#e3c342"))
-
-# all the ordination methods for Bray
-
-dist = psUM.distance.dice
-ord_meths = c("DCA", "CCA", "RDA", "NMDS", "MDS", "PCoA")
-
-plist = llply(as.list(ord_meths), function(i, physeq, dist){
-        ordi = ordinate(physeq, method=i, distance=dist)
-        plot_ordination(physeq, ordi, color="description")
-}, psUM.rare, dist)
-
-names(plist) <- ord_meths
-
-pdataframe = ldply(plist, function(x){
-    df = x$data[, 1:2]
-    colnames(df) = c("Axis_1", "Axis_2")
-    return(cbind(df, x$data))
-})
-names(pdataframe)[1] = "method"
-
-
-ggplot(pdataframe, aes(Axis_1, Axis_2, color=description)) + geom_point() + facet_wrap(~method, scales="free") + scale_color_manual(values = c("#08306B", "#2171B5", "#C6DBEF", "#6BAED6", "#e3c342")) + theme_dark() + ggtitle(label= "psUM dice")
-
 
 
 
@@ -333,30 +251,6 @@ psUMC.duo.PCoA.bray = ordinate(psUMC.duo.rare, "PCoA", distance= psUMC.duo.dista
 #plot the ordination
 psUMC.PCoA.jacc.plot <- plot_ordination(psUMC, psUMC.PCoA.jacc, color="description", title = "Jacc")
 psUMC.duo.PCoA.bray.plot <- plot_ordination(psUMC.duo.rare, psUMC.duo.PCoA.bray, color="description", title = "Bray")
-psUMC.duo.PCoA.bray.plot
-# psUM.PCoA.jacc.plot
-# psUM.PCoA.bray.plot
-
-# all the ordination methods for Bray and Jacc. Just rerun with dist= what you want
-
-dist = psUMC.duo.distance.dice
-ord_meths = c("DCA", "CCA", "RDA", "NMDS", "MDS", "PCoA")
-
-plist = llply(as.list(ord_meths), function(i, physeq, dist){
-        ordi = ordinate(physeq, method=i, distance=dist)
-        plot_ordination(physeq, ordi, color="description")
-}, psUMC.duo.rare, dist)
-
-names(plist) <- ord_meths
-
-pdataframe = ldply(plist, function(x){
-    df = x$data[, 1:2]
-    colnames(df) = c("Axis_1", "Axis_2")
-    return(cbind(df, x$data))
-})
-names(pdataframe)[1] = "method"
-
-ggplot(pdataframe, aes(Axis_1, Axis_2, color=description)) + geom_point() + facet_wrap(~method, scales="free") + scale_color_manual(values = c("#08306B", "#2171B5", "#C6DBEF", "#6BAED6", "#03fc4d", "#228c42", "#205731", "#e3c342")) + theme_dark() + ggtitle(label= "psUMC.duo dice")
 
 
 
@@ -417,31 +311,6 @@ write_tsv(psUMC.distance.bray.df, file ="distance_boxplots/psUMC_dist_bray.tsv")
 
 
 
-
-
-# all the ordination methods for Bray and Jacc. Just rerun with dist= what you want
-
-dist = psUMC.distance.bray
-ord_meths = c("DCA", "CCA", "RDA", "NMDS", "MDS", "PCoA")
-
-plist = llply(as.list(ord_meths), function(i, physeq, dist){
-        ordi = ordinate(physeq, method=i, distance=dist)
-        plot_ordination(physeq, ordi, color="description")
-}, psUMC, dist)
-
-names(plist) <- ord_meths
-
-pdataframe = ldply(plist, function(x){
-    df = x$data[, 1:2]
-    colnames(df) = c("Axis_1", "Axis_2")
-    return(cbind(df, x$data))
-})
-names(pdataframe)[1] = "method"
-
-ggplot(pdataframe, aes(Axis_1, Axis_2, color=description)) + geom_point() + facet_wrap(~method, scales="free") + scale_color_manual(values = c("#08306B", "#2171B5", "#C6DBEF", "#6BAED6", "#03fc4d", "#228c42", "#e3c342")) + theme_dark() + ggtitle(label= "psUMC bray")
-
-
-ggsave("figures/psUMC_Bray_NMDS.pdf", device = "pdf", width = 9, height = 9)
 ```
 
 
@@ -471,18 +340,11 @@ write_tsv(psVMC.distance.bray.df, file ="distance_boxplots/psVMC_dist_bray.tsv")
 
 
 
-
-
-
-
-
-
 psMAMC.rare
 
 # Distance matrices for Jacc and Bray
 psMAMC.distance.dice <- phyloseq::distance(psMAMC.rare, method = "bray", binary= TRUE)
 psMAMC.distance.bray <- phyloseq::distance(psMAMC.rare, method = "bray", binary= FALSE)
-
 
 
 
@@ -502,61 +364,7 @@ write_tsv(psMAMC.distance.bray.df, file ="distance_boxplots/psMAMC_dist_bray.tsv
 
 
 
-## ANCOM-BC lets do some differential abundance testing
-
-``` {r, echo = T, eval = T}
-
-
-testps
-otu_table(testps)
-tax_table(testps)
-
-
-testps <- subset_samples(psUMC.rare, description == "Mayaguez Urban" | description == "Maricao Rocks")
-sample_data(testps)
-
-phylum_data = aggregate_taxa(testps, "Genus")
-
-otu_table(phylum_data)
-
-
-out = ancombc(phyloseq = testps, formula = "description", 
-              p_adj_method = "holm", zero_cut = 0.90, lib_cut = 1000, 
-              group = "description", struc_zero = TRUE, neg_lb = TRUE, tol = 1e-5, 
-              max_iter = 100, conserve = TRUE, alpha = 0.05, global = TRUE)
-
-
-rm(res)
-res = out$res
-
-res$beta
-
-res$se
-
-res$W
-
-res$p_val
-
-res$q_val
-
-res$diff_abn
-
-sample_data(phylum_data)$description = recode(sample_data(phylum_data)$description, "AMayaguez Urban" = "Mayaguez Urban", USA = "AUSA")
-
-
-table(meta(phylum_data)[, "description"])
-
-
-
-test1
-test2
-test3
-test4
-```
-
-
-
-## Going to try out ANCOMII instead of ANCOMBC because of the plotting funcitonality
+## ANCOMII
 ``` {r, echo = T, eval = T}
 library(nlme)
 library(tidyverse)
@@ -574,7 +382,7 @@ sample_data(testps)
 otu_table(testps)
 tax_table(testps)
 
-# First need to transform the data into ancom form. Pretty easy just use as.data.frame. ANCOM wants the otu_data to have rownames and then it wants the rownames of the metadata converted to a column named sample.ID. If we want the rowname to column command to work you must first make the meta_data class a data.frame
+# First need to transform the data into ancom form. just use as.data.frame. ANCOM wants the otu_data to have rownames and then it wants the rownames of the metadata converted to a column named sample.ID. If we want the rowname to column command to work you must first make the meta_data class a data.frame
 otu_data = as.data.frame(otu_table(psANCOM.USA.Venezuela.rare))
 meta_data = as.data.frame(sample_data(psANCOM.USA.Venezuela.rare))
 class(meta_data) <- "data.frame"
@@ -601,7 +409,7 @@ res = ANCOM(feature_table, meta_data, struc_zero, main_var, p_adj_method,
             alpha, adj_formula, rand_formula)
 t_end = Sys.time()
 t_run = t_end - t_start # around 30s
-write_csv(res$out, "test/ANCOM_test.csv")
+
 
 # Step 3: Volcano Plot
 
@@ -614,7 +422,7 @@ names(cut_off) = c("detected_0.9", "detected_0.8", "detected_0.7", "detected_0.6
 # Annotation data
 dat_ann = data.frame(x = min(res$fig$data$x), y = cut_off["detected_0.7"], label = "W[0.7]")
 
-fig_USA_Venz_ASV = res$fig +  
+fig = res$fig +  
   geom_hline(yintercept = cut_off["detected_0.7"], linetype = "dashed") + 
   geom_text(data = dat_ann, aes(x = x, y = y, label = label), 
             size = 4, vjust = -0.5, hjust = 0, color = "orange", parse = TRUE) + ggtitle("USA_Venez_ASV")
@@ -654,8 +462,6 @@ filter(MUMRres$out, detected_0.7 == TRUE)
 
 
 
-
-
 # diff between MU and ABnB
 as.data.frame(tax_table(psM.prune)) %>% rownames_to_column(var = "ASVID") %>% filter(ASVID == "ASV16414") #%>% write_csv(file ="figures/MU_ABnB_diffabundance.csv")
 # diff between MU and MF
@@ -666,103 +472,6 @@ as.data.frame(tax_table(psM.prune)) %>% rownames_to_column(var = "ASVID") %>% fi
 as.data.frame(tax_table(psC.prune)) %>% rownames_to_column(var = "ASVID") %>% filter(ASVID == "ASV19872" | ASVID == "ASV28851") #%>% write_csv(file ="figures/Coyotes_diffabundance.csv")
 
 ```
-
-
-
-
-
-
-
-## Various Heatmaps Mostly with the above ancom results.
-``` {r, echo = T, eval = T}
-
-library(scales)
-
-#MU_ABnB_ASV_heat
-MU_ABnB_ASV_heat <- subset_samples(psM.rare, description == "Mayaguez Urban" | description =="AirBnB")
-MU_ABnB_ASV_heat <- prune_taxa("ASV16414", MU_ABnB_ASV_heat)
-tax_table(MU_ABnB_ASV_heat)
-fig_MU_ABnB_ASV_heat <- plot_heatmap(MU_ABnB_ASV_heat, sample.label = "description", method = FALSE, high = "#d95f0e", low = "#fff7bc", na.value = "#ffffff", taxa.label = "Family", title = "MU_ABnB")
-
-
-
-#MU_MF_ASV_heat
-MU_MF_ASV_heat <- subset_samples(psM.rare, description == "Mayaguez Urban" | description =="Mayaguez Forest")
-MU_MF_ASV_heat <- prune_taxa(c("ASV6593", "ASV7025", "ASV11740"), MU_MF_ASV_heat)
-tax_table(MU_MF_ASV_heat)
-fig_MU_MF_ASV_heat <- plot_heatmap(MU_MF_ASV_heat, sample.label = "description", method = FALSE, high = "#d95f0e", low = "#fff7bc", na.value = "#ffffff", taxa.label = "Family", title = "MU_MF")
-
-
-#MU_MR_ASV_heat
-MU_MR_ASV_heat <- subset_samples(psM.rare, description == "Mayaguez Urban" | description =="Maricao Rocks")
-MU_MR_ASV_heat <- prune_taxa(c("ASV4663", "ASV6593", "ASV7025", "ASV7280", "ASV8582", "ASV13425", "ASV16638", "ASV22190", "ASV26624", "ASV26736"), MU_MR_ASV_heat)
-tax_table(MU_MR_ASV_heat)
-fig_MU_MR_ASV_heat <- plot_heatmap(MU_MR_ASV_heat, sample.label = "description", method = FALSE, high = "#d95f0e", low = "#fff7bc", na.value = "#ffffff", taxa.label = "Family", title = "MU_MR")
-
-
-#MU_MR_ASV_heat + usa humans
-H_MU_MR_ASV_heat <- subset_samples(psUM.rare, description == "Mayaguez Urban" | description =="Maricao Rocks" | description =="USA")
-H_MU_MR_ASV_heat <- prune_taxa(c("ASV4663", "ASV6593", "ASV7025", "ASV7280", "ASV8582", "ASV13425", "ASV16638", "ASV22190", "ASV26624", "ASV26736"), H_MU_MR_ASV_heat)
-tax_table(H_MU_MR_ASV_heat)
-fig_H_MU_MR_ASV_heat <- plot_heatmap(H_MU_MR_ASV_heat, sample.label = "description", method = FALSE, high = "#d95f0e", low = "#fff7bc", na.value = "#ffffff", taxa.label = "Family", title = "MU_MR_USA")
-plot_heatmap(H_MU_MR_ASV_heat, sample.label = "description", method = FALSE, high = "#d95f0e", low = "#fff7bc", na.value = "#ffffff", title = "MU_MR_USA")
-
-
-#MU_MR_ASV_heat + venez humans
-V_MU_MR_ASV_heat <- subset_samples(psVM.rare, description == "Mayaguez Urban" | description =="Maricao Rocks" | description =="Venezuela")
-V_MU_MR_ASV_heat <- prune_taxa(c("ASV4663", "ASV6593", "ASV7025", "ASV7280", "ASV8582", "ASV13425", "ASV16638", "ASV22190", "ASV26624", "ASV26736"), V_MU_MR_ASV_heat)
-tax_table(V_MU_MR_ASV_heat)
-fig_V_MU_MR_ASV_heat <- plot_heatmap(V_MU_MR_ASV_heat, sample.label = "description", method = FALSE, high = "#d95f0e", low = "#fff7bc", na.value = "#ffffff", taxa.label = "Family", title = "MU_MR_V")
-plot_heatmap(V_MU_MR_ASV_heat, sample.label = "description", method = FALSE, high = "#d95f0e", low = "#fff7bc", na.value = "#ffffff", title = "MU_MR_V")
-
-#MU_MR_ASV_heat + Malawi humans
-M_MU_MR_ASV_heat <- subset_samples(psMAM.rare, description == "Mayaguez Urban" | description =="Maricao Rocks" | description =="Malawi")
-M_MU_MR_ASV_heat <- prune_taxa(c("ASV4663", "ASV6593", "ASV7025", "ASV7280", "ASV8582", "ASV13425", "ASV16638", "ASV22190", "ASV26624", "ASV26736"), M_MU_MR_ASV_heat)
-tax_table(M_MU_MR_ASV_heat)
-fig_M_MU_MR_ASV_heat <- plot_heatmap(M_MU_MR_ASV_heat, sample.label = "description", method = FALSE, high = "#d95f0e", low = "#fff7bc", na.value = "#ffffff", taxa.label = "Family", title = "MU_MR_M")
-plot_heatmap(M_MU_MR_ASV_heat, sample.label = "description", method = FALSE, high = "#d95f0e", low = "#fff7bc", na.value = "#ffffff", title = "MU_MR_M")
-
-#coyotes_ASV_heat
-coyotes_ASV_heat <- subset_samples(psC.rare, description != "Urban coyote duodenal samples")
-coyotes_ASV_heat <- prune_taxa(c("ASV19872", "ASV28851"), coyotes_ASV_heat)
-tax_table(coyotes_ASV_heat)
-fig_coyotes_ASV_heat <- plot_heatmap(coyotes_ASV_heat, sample.label = "description", method = FALSE, high = "#d95f0e", low = "#fff7bc", na.value = "#ffffff", taxa.label = "Family", title = "coyotes")
-
-
-
-
-# Top 30 ASV heatmap not related to ANCOM
-
-top30asv <- prune_taxa(names(sort(taxa_sums(psAll.rare),TRUE)[1:30]), psAll.rare)
-top30asv_heat <- plot_heatmap(top30asv, method = FALSE, high = "#d95f0e", low = "#fff7bc", na.value = "#ffffff", taxa.label = "Family") + facet_wrap(~description, scales="free_x", nrow = 1)
-
-
-
-
-
-
-
-
-fig_MU_ABnB_ASV_heat
-fig_MU_MF_ASV_heat
-fig_MU_MR_ASV_heat
-fig_H_MU_MR_ASV_heat
-fig_V_MU_MR_ASV_heat
-fig_M_MU_MR_ASV_heat
-fig_coyotes_ASV_heat + facet_wrap(~description, scales="free_x")
-top30asv_heat
-
-
-
-
-
-ggsave("figures/top30asv_heat.pdf", device = "pdf", width = 18, height = 8)
-
-
-
-
-```
-
 
 
 
@@ -858,7 +567,6 @@ evenything.colors <- c("#ffd3ff", "#ff86ff", "#ab00ff", "#002cc0", "#ff1e44", "#
 
 
 
-
 ## Distance boxplot figures
 
 ``` {r, echo = T, eval = T}
@@ -907,10 +615,6 @@ psAll.rare.abundance <- pivot_longer(psAll.rare.abundance, rownames(otu_table(ps
 psAll.rare.abundance %>% group_by(description) %>% summarize(totalabun = sum(abundance))
 
 
-
-
-
-
 psAll.grouped <- psAll.rare.abundance %>% select(description,rownames(otu_table(psAll.rare)))
 psAll.grouped
 
@@ -948,8 +652,6 @@ coyote.peri.match <- psAll.grouped.coyote %>% filter(abundance != 0 & descriptio
 coyote.urban.match
 
 
-
-
 match_df(test, test2) %>% match_df(neg.test2) %>% write_csv("figures/tables/test")
 
 
@@ -979,9 +681,6 @@ psUMC.distance.bray
 
 testmeta
 M.vegdist=vegdist(testasvs, distance="bray")
-
-M.vegdist
-#will need vegan meta eventually
 
 
 adonis(psUMC.distance.dice ~ description, data = testmeta, permutations = 1000)
