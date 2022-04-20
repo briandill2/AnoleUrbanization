@@ -1,0 +1,852 @@
+SampleID	BarcodeSequence	LinkerPrimerSequence	original_ID	env_feature	env_biome	scientific_name	life_stage	LifestyleSpecies	description	study	ANCOM_random
+13566.03F.SRR8774487	NA	NA	03F	CoyoteFeces	Peri-urban coyote fecal samples	Canis latrans	coyote	RuralCoyote	Peri-urban coyote fecal samples	coyote	Rural
+13566.04F.SRR8774486	NA	NA	04F	CoyoteFeces	Peri-urban coyote fecal samples	Canis latrans	coyote	RuralCoyote	Peri-urban coyote fecal samples	coyote	Rural
+13566.05F.SRR8774485	NA	NA	05F	CoyoteFeces	Peri-urban coyote fecal samples	Canis latrans	coyote	RuralCoyote	Peri-urban coyote fecal samples	coyote	Rural
+13566.06F.SRR8774484	NA	NA	06F	CoyoteFeces	Peri-urban coyote fecal samples	Canis latrans	coyote	RuralCoyote	Peri-urban coyote fecal samples	coyote	Rural
+13566.07F.SRR8774483	NA	NA	07F	CoyoteFeces	Peri-urban coyote fecal samples	Canis latrans	coyote	RuralCoyote	Peri-urban coyote fecal samples	coyote	Rural
+13566.08F.SRR8774482	NA	NA	08F	CoyoteFeces	Peri-urban coyote fecal samples	Canis latrans	coyote	RuralCoyote	Peri-urban coyote fecal samples	coyote	Rural
+13566.09F.SRR8774491	NA	NA	09F	CoyoteFeces	Peri-urban coyote fecal samples	Canis latrans	coyote	RuralCoyote	Peri-urban coyote fecal samples	coyote	Rural
+13566.10F.SRR8774490	NA	NA	10F	CoyoteFeces	Peri-urban coyote fecal samples	Canis latrans	coyote	RuralCoyote	Peri-urban coyote fecal samples	coyote	Rural
+13566.11F.SRR8774407	NA	NA	11F	CoyoteFeces	Peri-urban coyote fecal samples	Canis latrans	coyote	RuralCoyote	Peri-urban coyote fecal samples	coyote	Rural
+13566.13F.SRR8774409	NA	NA	13F	CoyoteFeces	Peri-urban coyote fecal samples	Canis latrans	coyote	RuralCoyote	Peri-urban coyote fecal samples	coyote	Rural
+13566.14F.SRR8774408	NA	NA	14F	CoyoteFeces	Peri-urban coyote fecal samples	Canis latrans	coyote	RuralCoyote	Peri-urban coyote fecal samples	coyote	Rural
+13566.15F.SRR8774403	NA	NA	15F	CoyoteFeces	Peri-urban coyote fecal samples	Canis latrans	coyote	RuralCoyote	Peri-urban coyote fecal samples	coyote	Rural
+13566.16F.SRR8774402	NA	NA	16F	CoyoteFeces	Peri-urban coyote fecal samples	Canis latrans	coyote	RuralCoyote	Peri-urban coyote fecal samples	coyote	Rural
+13566.18F.SRR8774404	NA	NA	18F	CoyoteFeces	Peri-urban coyote fecal samples	Canis latrans	coyote	RuralCoyote	Peri-urban coyote fecal samples	coyote	Rural
+13566.19F.SRR8774401	NA	NA	19F	CoyoteFeces	Peri-urban coyote fecal samples	Canis latrans	coyote	RuralCoyote	Peri-urban coyote fecal samples	coyote	Rural
+13566.20F.SRR8774400	NA	NA	20F	CoyoteFeces	Peri-urban coyote fecal samples	Canis latrans	coyote	RuralCoyote	Peri-urban coyote fecal samples	coyote	Rural
+13566.21F.SRR8774350	NA	NA	21F	CoyoteFeces	Peri-urban coyote fecal samples	Canis latrans	coyote	RuralCoyote	Peri-urban coyote fecal samples	coyote	Rural
+13566.22F.SRR8774351	NA	NA	22F	CoyoteFeces	Peri-urban coyote fecal samples	Canis latrans	coyote	RuralCoyote	Peri-urban coyote fecal samples	coyote	Rural
+13566.23F.SRR8774352	NA	NA	23F	CoyoteFeces	Peri-urban coyote fecal samples	Canis latrans	coyote	RuralCoyote	Peri-urban coyote fecal samples	coyote	Rural
+13566.24F.SRR8774353	NA	NA	24F	CoyoteFeces	Peri-urban coyote fecal samples	Canis latrans	coyote	RuralCoyote	Peri-urban coyote fecal samples	coyote	Rural
+13566.25F.SRR8774354	NA	NA	25F	CoyoteFeces	Peri-urban coyote fecal samples	Canis latrans	coyote	RuralCoyote	Peri-urban coyote fecal samples	coyote	Rural
+13566.26F.SRR8774355	NA	NA	26F	CoyoteFeces	Peri-urban coyote fecal samples	Canis latrans	coyote	RuralCoyote	Peri-urban coyote fecal samples	coyote	Rural
+13566.27F.SRR8774356	NA	NA	27F	CoyoteFeces	Peri-urban coyote fecal samples	Canis latrans	coyote	RuralCoyote	Peri-urban coyote fecal samples	coyote	Rural
+13566.28F.SRR8774357	NA	NA	28F	CoyoteFeces	Peri-urban coyote fecal samples	Canis latrans	coyote	RuralCoyote	Peri-urban coyote fecal samples	coyote	Rural
+13566.29F.SRR8774358	NA	NA	29F	CoyoteFeces	Peri-urban coyote fecal samples	Canis latrans	coyote	RuralCoyote	Peri-urban coyote fecal samples	coyote	Rural
+13566.30F.SRR8774359	NA	NA	30F	CoyoteFeces	Peri-urban coyote fecal samples	Canis latrans	coyote	RuralCoyote	Peri-urban coyote fecal samples	coyote	Rural
+13566.31F.SRR8774479	NA	NA	31F	CoyoteFeces	Peri-urban coyote fecal samples	Canis latrans	coyote	RuralCoyote	Peri-urban coyote fecal samples	coyote	Rural
+13566.32F.SRR8774478	NA	NA	32F	CoyoteFeces	Peri-urban coyote fecal samples	Canis latrans	coyote	RuralCoyote	Peri-urban coyote fecal samples	coyote	Rural
+13566.33F.SRR8774477	NA	NA	33F	CoyoteFeces	Peri-urban coyote fecal samples	Canis latrans	coyote	RuralCoyote	Peri-urban coyote fecal samples	coyote	Rural
+13566.34F.SRR8774476	NA	NA	34F	CoyoteFeces	Peri-urban coyote fecal samples	Canis latrans	coyote	RuralCoyote	Peri-urban coyote fecal samples	coyote	Rural
+13566.35F.SRR8774475	NA	NA	35F	CoyoteFeces	Peri-urban coyote fecal samples	Canis latrans	coyote	RuralCoyote	Peri-urban coyote fecal samples	coyote	Rural
+13566.36F.SRR8774474	NA	NA	36F	CoyoteFeces	Peri-urban coyote fecal samples	Canis latrans	coyote	RuralCoyote	Peri-urban coyote fecal samples	coyote	Rural
+13566.37F.SRR8774473	NA	NA	37F	CoyoteFeces	Peri-urban coyote fecal samples	Canis latrans	coyote	RuralCoyote	Peri-urban coyote fecal samples	coyote	Rural
+13566.38F.SRR8774472	NA	NA	38F	CoyoteFeces	Peri-urban coyote fecal samples	Canis latrans	coyote	RuralCoyote	Peri-urban coyote fecal samples	coyote	Rural
+13566.39F.SRR8774481	NA	NA	39F	CoyoteFeces	Peri-urban coyote fecal samples	Canis latrans	coyote	RuralCoyote	Peri-urban coyote fecal samples	coyote	Rural
+13566.40F.SRR8774480	NA	NA	40F	CoyoteFeces	Peri-urban coyote fecal samples	Canis latrans	coyote	RuralCoyote	Peri-urban coyote fecal samples	coyote	Rural
+13566.41F.SRR8774494	NA	NA	41F	CoyoteFeces	Peri-urban coyote fecal samples	Canis latrans	coyote	RuralCoyote	Peri-urban coyote fecal samples	coyote	Rural
+13566.42F.SRR8774495	NA	NA	42F	CoyoteFeces	Peri-urban coyote fecal samples	Canis latrans	coyote	RuralCoyote	Peri-urban coyote fecal samples	coyote	Rural
+13566.43F.SRR8774492	NA	NA	43F	CoyoteFeces	Peri-urban coyote fecal samples	Canis latrans	coyote	RuralCoyote	Peri-urban coyote fecal samples	coyote	Rural
+13566.44F.SRR8774493	NA	NA	44F	CoyoteFeces	Peri-urban coyote fecal samples	Canis latrans	coyote	RuralCoyote	Peri-urban coyote fecal samples	coyote	Rural
+13566.45F.SRR8774498	NA	NA	45F	CoyoteFeces	Peri-urban coyote fecal samples	Canis latrans	coyote	RuralCoyote	Peri-urban coyote fecal samples	coyote	Rural
+13566.46F.SRR8774499	NA	NA	46F	CoyoteFeces	Peri-urban coyote fecal samples	Canis latrans	coyote	RuralCoyote	Peri-urban coyote fecal samples	coyote	Rural
+13566.47F.SRR8774496	NA	NA	47F	CoyoteFeces	Peri-urban coyote fecal samples	Canis latrans	coyote	RuralCoyote	Peri-urban coyote fecal samples	coyote	Rural
+13566.48F.SRR8774497	NA	NA	48F	CoyoteFeces	Peri-urban coyote fecal samples	Canis latrans	coyote	RuralCoyote	Peri-urban coyote fecal samples	coyote	Rural
+13566.49F.SRR8774500	NA	NA	49F	CoyoteFeces	Peri-urban coyote fecal samples	Canis latrans	coyote	RuralCoyote	Peri-urban coyote fecal samples	coyote	Rural
+13566.50F.SRR8774501	NA	NA	50F	CoyoteFeces	Peri-urban coyote fecal samples	Canis latrans	coyote	RuralCoyote	Peri-urban coyote fecal samples	coyote	Rural
+13566.51F.SRR8774463	NA	NA	51F	CoyoteFeces	Peri-urban coyote fecal samples	Canis latrans	coyote	RuralCoyote	Peri-urban coyote fecal samples	coyote	Rural
+13566.52F.SRR8774462	NA	NA	52F	CoyoteFeces	Peri-urban coyote fecal samples	Canis latrans	coyote	RuralCoyote	Peri-urban coyote fecal samples	coyote	Rural
+13566.53F.SRR8774465	NA	NA	53F	CoyoteFeces	Peri-urban coyote fecal samples	Canis latrans	coyote	RuralCoyote	Peri-urban coyote fecal samples	coyote	Rural
+13566.54F.SRR8774464	NA	NA	54F	CoyoteFeces	Peri-urban coyote fecal samples	Canis latrans	coyote	RuralCoyote	Peri-urban coyote fecal samples	coyote	Rural
+13566.55F.SRR8774467	NA	NA	55F	CoyoteFeces	Peri-urban coyote fecal samples	Canis latrans	coyote	RuralCoyote	Peri-urban coyote fecal samples	coyote	Rural
+13566.56F.SRR8774466	NA	NA	56F	CoyoteFeces	Peri-urban coyote fecal samples	Canis latrans	coyote	RuralCoyote	Peri-urban coyote fecal samples	coyote	Rural
+13566.57F.SRR8774469	NA	NA	57F	CoyoteFeces	Peri-urban coyote fecal samples	Canis latrans	coyote	RuralCoyote	Peri-urban coyote fecal samples	coyote	Rural
+13566.58F.SRR8774468	NA	NA	58F	CoyoteFeces	Peri-urban coyote fecal samples	Canis latrans	coyote	RuralCoyote	Peri-urban coyote fecal samples	coyote	Rural
+13566.59F.SRR8774471	NA	NA	59F	CoyoteFeces	Peri-urban coyote fecal samples	Canis latrans	coyote	RuralCoyote	Peri-urban coyote fecal samples	coyote	Rural
+13566.60F.SRR8774470	NA	NA	60F	CoyoteFeces	Peri-urban coyote fecal samples	Canis latrans	coyote	RuralCoyote	Peri-urban coyote fecal samples	coyote	Rural
+13566.61F.SRR8774454	NA	NA	61F	CoyoteFeces	Peri-urban coyote fecal samples	Canis latrans	coyote	RuralCoyote	Peri-urban coyote fecal samples	coyote	Rural
+13566.62F.SRR8774455	NA	NA	62F	CoyoteFeces	Peri-urban coyote fecal samples	Canis latrans	coyote	RuralCoyote	Peri-urban coyote fecal samples	coyote	Rural
+13566.63F.SRR8774456	NA	NA	63F	CoyoteFeces	Peri-urban coyote fecal samples	Canis latrans	coyote	RuralCoyote	Peri-urban coyote fecal samples	coyote	Rural
+13566.64F.SRR8774457	NA	NA	64F	CoyoteFeces	Peri-urban coyote fecal samples	Canis latrans	coyote	RuralCoyote	Peri-urban coyote fecal samples	coyote	Rural
+13566.65F.SRR8774450	NA	NA	65F	CoyoteFeces	Peri-urban coyote fecal samples	Canis latrans	coyote	RuralCoyote	Peri-urban coyote fecal samples	coyote	Rural
+13566.67F.SRR8774452	NA	NA	67F	CoyoteFeces	Peri-urban coyote fecal samples	Canis latrans	coyote	RuralCoyote	Peri-urban coyote fecal samples	coyote	Rural
+13566.68F.SRR8774453	NA	NA	68F	CoyoteFeces	Peri-urban coyote fecal samples	Canis latrans	coyote	RuralCoyote	Peri-urban coyote fecal samples	coyote	Rural
+13566.72F.SRR8774434	NA	NA	72F	CoyoteFeces	Peri-urban coyote fecal samples	Canis latrans	coyote	RuralCoyote	Peri-urban coyote fecal samples	coyote	Rural
+13566.76F.SRR8774438	NA	NA	76F	CoyoteFeces	Peri-urban coyote fecal samples	Canis latrans	coyote	RuralCoyote	Peri-urban coyote fecal samples	coyote	Rural
+13566.01F.SRR8774489	NA	NA	01F	CoyoteFeces	Urban coyote fecal samples	Canis latrans	coyote	UrbanCoyote	Urban coyote fecal samples	coyote	Urban
+13566.02F.SRR8774488	NA	NA	02F	CoyoteFeces	Urban coyote fecal samples	Canis latrans	coyote	UrbanCoyote	Urban coyote fecal samples	coyote	Urban
+13566.12F.SRR8774406	NA	NA	12F	CoyoteFeces	Urban coyote fecal samples	Canis latrans	coyote	UrbanCoyote	Urban coyote fecal samples	coyote	Urban
+13566.17F.SRR8774405	NA	NA	17F	CoyoteFeces	Urban coyote fecal samples	Canis latrans	coyote	UrbanCoyote	Urban coyote fecal samples	coyote	Urban
+13566.66F.SRR8774451	NA	NA	66F	CoyoteFeces	Urban coyote fecal samples	Canis latrans	coyote	UrbanCoyote	Urban coyote fecal samples	coyote	Urban
+13566.69F.SRR8774458	NA	NA	69F	CoyoteFeces	Urban coyote fecal samples	Canis latrans	coyote	UrbanCoyote	Urban coyote fecal samples	coyote	Urban
+13566.70F.SRR8774459	NA	NA	70F	CoyoteFeces	Urban coyote fecal samples	Canis latrans	coyote	UrbanCoyote	Urban coyote fecal samples	coyote	Urban
+13566.71F.SRR8774435	NA	NA	71F	CoyoteFeces	Urban coyote fecal samples	Canis latrans	coyote	UrbanCoyote	Urban coyote fecal samples	coyote	Urban
+13566.73F.SRR8774433	NA	NA	73F	CoyoteFeces	Urban coyote fecal samples	Canis latrans	coyote	UrbanCoyote	Urban coyote fecal samples	coyote	Urban
+13566.74F.SRR8774432	NA	NA	74F	CoyoteFeces	Urban coyote fecal samples	Canis latrans	coyote	UrbanCoyote	Urban coyote fecal samples	coyote	Urban
+13566.75F.SRR8774439	NA	NA	75F	CoyoteFeces	Urban coyote fecal samples	Canis latrans	coyote	UrbanCoyote	Urban coyote fecal samples	coyote	Urban
+13332.AF067.SB.CO	NA	NA	AF067	AnoleFeces	Sucia Base	cooki	anole	RuralAnole	Sucia Base	anole	None
+13332.AF075.SB.CO	NA	NA	AF075	AnoleFeces	Sucia Base	cooki	anole	RuralAnole	Sucia Base	anole	None
+13332.AF076.SB.CO	NA	NA	AF076	AnoleFeces	Sucia Base	cooki	anole	RuralAnole	Sucia Base	anole	None
+13332.AF074.SE.CO	NA	NA	AF074	AnoleFeces	Sucia Beach	cooki	anole	RuralAnole	Sucia Beach	anole	None
+13332.AF097.SF.CO	NA	NA	AF097	AnoleFeces	Sucia Flat	cooki	anole	RuralAnole	Sucia Flat	anole	None
+13332.AF003.BB.CR	NA	NA	AF003	AnoleFeces	AirBnB	cristatellus	anole	RuralAnole	AirBnB	anole	None
+13332.AF008.BB.CR	NA	NA	AF008	AnoleFeces	AirBnB	cristatellus	anole	RuralAnole	AirBnB	anole	None
+13332.AF010.BB.CR	NA	NA	AF010	AnoleFeces	AirBnB	cristatellus	anole	RuralAnole	AirBnB	anole	None
+13332.AF011.BB.CR	NA	NA	AF011	AnoleFeces	AirBnB	cristatellus	anole	RuralAnole	AirBnB	anole	None
+13332.AF012.BB.CR	NA	NA	AF012	AnoleFeces	AirBnB	cristatellus	anole	RuralAnole	AirBnB	anole	None
+13332.AF013.BB.CR	NA	NA	AF013	AnoleFeces	AirBnB	cristatellus	anole	RuralAnole	AirBnB	anole	None
+13332.AF046.BB.CR	NA	NA	AF046	AnoleFeces	AirBnB	cristatellus	anole	RuralAnole	AirBnB	anole	None
+13332.AF047.BB.CR	NA	NA	AF047	AnoleFeces	AirBnB	cristatellus	anole	RuralAnole	AirBnB	anole	None
+13332.AF048.BB.CR	NA	NA	AF048	AnoleFeces	AirBnB	cristatellus	anole	RuralAnole	AirBnB	anole	None
+13332.AF077.MR.CR	NA	NA	AF077	AnoleFeces	Maricao Rocks	cristatellus	anole	RuralAnole	Maricao Rocks	anole	Rural
+13332.AF078.MR.CR	NA	NA	AF078	AnoleFeces	Maricao Rocks	cristatellus	anole	RuralAnole	Maricao Rocks	anole	Rural
+13332.AF080.MR.CR	NA	NA	AF080	AnoleFeces	Maricao Rocks	cristatellus	anole	RuralAnole	Maricao Rocks	anole	Rural
+13332.AF082.MR.CR	NA	NA	AF082	AnoleFeces	Maricao Rocks	cristatellus	anole	RuralAnole	Maricao Rocks	anole	Rural
+13332.AF084.MR.CR	NA	NA	AF084	AnoleFeces	Maricao Rocks	cristatellus	anole	RuralAnole	Maricao Rocks	anole	Rural
+13332.AF085.MR.CR	NA	NA	AF085	AnoleFeces	Maricao Rocks	cristatellus	anole	RuralAnole	Maricao Rocks	anole	Rural
+13332.AF086.MR.CR	NA	NA	AF086	AnoleFeces	Maricao Rocks	cristatellus	anole	RuralAnole	Maricao Rocks	anole	Rural
+13332.AF087.MR.CR	NA	NA	AF087	AnoleFeces	Maricao Rocks	cristatellus	anole	RuralAnole	Maricao Rocks	anole	Rural
+13332.AF088.MR.CR	NA	NA	AF088	AnoleFeces	Maricao Rocks	cristatellus	anole	RuralAnole	Maricao Rocks	anole	Rural
+13332.AF092.MR.CR	NA	NA	AF092	AnoleFeces	Maricao Rocks	cristatellus	anole	RuralAnole	Maricao Rocks	anole	Rural
+13332.AF093.MR.CR	NA	NA	AF093	AnoleFeces	Maricao Rocks	cristatellus	anole	RuralAnole	Maricao Rocks	anole	Rural
+13332.AF094.MR.CR	NA	NA	AF094	AnoleFeces	Maricao Rocks	cristatellus	anole	RuralAnole	Maricao Rocks	anole	Rural
+13332.AF104.YF.CR	NA	NA	AF104	AnoleFeces	Mayaguez Forest	cristatellus	anole	RuralAnole	Mayaguez Forest	anole	None
+13332.AF105.YF.CR	NA	NA	AF105	AnoleFeces	Mayaguez Forest	cristatellus	anole	RuralAnole	Mayaguez Forest	anole	None
+13332.AF106.YF.CR	NA	NA	AF106	AnoleFeces	Mayaguez Forest	cristatellus	anole	RuralAnole	Mayaguez Forest	anole	None
+13332.AF107.YF.CR	NA	NA	AF107	AnoleFeces	Mayaguez Forest	cristatellus	anole	RuralAnole	Mayaguez Forest	anole	None
+13332.AF108.YF.CR	NA	NA	AF108	AnoleFeces	Mayaguez Forest	cristatellus	anole	RuralAnole	Mayaguez Forest	anole	None
+13332.AF109.YF.CR	NA	NA	AF109	AnoleFeces	Mayaguez Forest	cristatellus	anole	RuralAnole	Mayaguez Forest	anole	None
+13332.AF110.YF.CR	NA	NA	AF110	AnoleFeces	Mayaguez Forest	cristatellus	anole	RuralAnole	Mayaguez Forest	anole	None
+13332.AF111.YF.CR	NA	NA	AF111	AnoleFeces	Mayaguez Forest	cristatellus	anole	RuralAnole	Mayaguez Forest	anole	None
+13332.AF112.YF.CR	NA	NA	AF112	AnoleFeces	Mayaguez Forest	cristatellus	anole	RuralAnole	Mayaguez Forest	anole	None
+13332.AF143.YF.CR	NA	NA	AF143	AnoleFeces	Mayaguez Forest	cristatellus	anole	RuralAnole	Mayaguez Forest	anole	None
+13332.AF144.YF.CR	NA	NA	AF144	AnoleFeces	Mayaguez Forest	cristatellus	anole	RuralAnole	Mayaguez Forest	anole	None
+13332.AF113.YU.CR	NA	NA	AF113	AnoleFeces	Mayaguez Urban	cristatellus	anole	UrbanAnole	Mayaguez Urban	anole	Urban
+13332.AF114.YU.CR	NA	NA	AF114	AnoleFeces	Mayaguez Urban	cristatellus	anole	UrbanAnole	Mayaguez Urban	anole	Urban
+13332.AF115.YU.CR	NA	NA	AF115	AnoleFeces	Mayaguez Urban	cristatellus	anole	UrbanAnole	Mayaguez Urban	anole	Urban
+13332.AF116.YU.CR	NA	NA	AF116	AnoleFeces	Mayaguez Urban	cristatellus	anole	UrbanAnole	Mayaguez Urban	anole	Urban
+13332.AF117.YU.CR	NA	NA	AF117	AnoleFeces	Mayaguez Urban	cristatellus	anole	UrbanAnole	Mayaguez Urban	anole	Urban
+13332.AF118.YU.CR	NA	NA	AF118	AnoleFeces	Mayaguez Urban	cristatellus	anole	UrbanAnole	Mayaguez Urban	anole	Urban
+13332.AF119.YU.CR	NA	NA	AF119	AnoleFeces	Mayaguez Urban	cristatellus	anole	UrbanAnole	Mayaguez Urban	anole	Urban
+13332.AF120.YU.CR	NA	NA	AF120	AnoleFeces	Mayaguez Urban	cristatellus	anole	UrbanAnole	Mayaguez Urban	anole	Urban
+13332.AF121.YU.CR	NA	NA	AF121	AnoleFeces	Mayaguez Urban	cristatellus	anole	UrbanAnole	Mayaguez Urban	anole	Urban
+13332.AF122.YU.CR	NA	NA	AF122	AnoleFeces	Mayaguez Urban	cristatellus	anole	UrbanAnole	Mayaguez Urban	anole	Urban
+13332.AF007.CR.CU	NA	NA	AF007	AnoleFeces	Calle Resecadora	cuvieri	anole	RuralAnole	Calle Resecadora	anole	None
+13332.AF079.MR.EV	NA	NA	AF079	AnoleFeces	Maricao Rocks	evermanni	anole	RuralAnole	Maricao Rocks	anole	None
+13332.AF081.MR.EV	NA	NA	AF081	AnoleFeces	Maricao Rocks	evermanni	anole	RuralAnole	Maricao Rocks	anole	None
+13332.AF083.MR.EV	NA	NA	AF083	AnoleFeces	Maricao Rocks	evermanni	anole	RuralAnole	Maricao Rocks	anole	None
+13332.AF090.MR.EV	NA	NA	AF090	AnoleFeces	Maricao Rocks	evermanni	anole	RuralAnole	Maricao Rocks	anole	None
+13332.AF017.ME.EV	NA	NA	AF017	AnoleFeces	Maricao Early	evermanni	anole	RuralAnole	Maricao Early	anole	None
+13332.AF027.ME.EV	NA	NA	AF027	AnoleFeces	Maricao Early	evermanni	anole	RuralAnole	Maricao Early	anole	None
+13332.AF028.ME.EV	NA	NA	AF028	AnoleFeces	Maricao Early	evermanni	anole	RuralAnole	Maricao Early	anole	None
+13332.AF021.MR.EV	NA	NA	AF021	AnoleFeces	Maricao Rocks	evermanni	anole	RuralAnole	Maricao Rocks	anole	None
+13332.AF024.MR.EV	NA	NA	AF024	AnoleFeces	Maricao Rocks	evermanni	anole	RuralAnole	Maricao Rocks	anole	None
+13332.AF061.MR.EV	NA	NA	AF061	AnoleFeces	Maricao Rocks	evermanni	anole	RuralAnole	Maricao Rocks	anole	None
+13332.AF064.MR.EV	NA	NA	AF064	AnoleFeces	Maricao Rocks	evermanni	anole	RuralAnole	Maricao Rocks	anole	None
+13332.AF045.MC.GU	NA	NA	AF045	AnoleFeces	Maricao Camp	gundlachi	anole	RuralAnole	Maricao Camp	anole	None
+13332.AF051.MC.GU	NA	NA	AF051	AnoleFeces	Maricao Camp	gundlachi	anole	RuralAnole	Maricao Camp	anole	None
+13332.AF054.MC.GU	NA	NA	AF054	AnoleFeces	Maricao Camp	gundlachi	anole	RuralAnole	Maricao Camp	anole	None
+13332.AF058.MC.GU	NA	NA	AF058	AnoleFeces	Maricao Camp	gundlachi	anole	RuralAnole	Maricao Camp	anole	None
+13332.AF016.ME.GU	NA	NA	AF016	AnoleFeces	Maricao Early	gundlachi	anole	RuralAnole	Maricao Early	anole	None
+13332.AF020.ME.GU	NA	NA	AF020	AnoleFeces	Maricao Early	gundlachi	anole	RuralAnole	Maricao Early	anole	None
+13332.AF023.ME.GU	NA	NA	AF023	AnoleFeces	Maricao Early	gundlachi	anole	RuralAnole	Maricao Early	anole	None
+13332.AF026.ME.GU	NA	NA	AF026	AnoleFeces	Maricao Early	gundlachi	anole	RuralAnole	Maricao Early	anole	None
+13332.AF040.ME.GU	NA	NA	AF040	AnoleFeces	Maricao Early	gundlachi	anole	RuralAnole	Maricao Early	anole	None
+13332.AF042.ME.GU	NA	NA	AF042	AnoleFeces	Maricao Early	gundlachi	anole	RuralAnole	Maricao Early	anole	None
+13332.AF044.ME.GU	NA	NA	AF044	AnoleFeces	Maricao Early	gundlachi	anole	RuralAnole	Maricao Early	anole	None
+13332.AF055.ME.GU	NA	NA	AF055	AnoleFeces	Maricao Early	gundlachi	anole	RuralAnole	Maricao Early	anole	None
+13332.AF033.MR.GU	NA	NA	AF033	AnoleFeces	Maricao Rocks	gundlachi	anole	RuralAnole	Maricao Rocks	anole	None
+13332.AF062.MR.GU	NA	NA	AF062	AnoleFeces	Maricao Rocks	gundlachi	anole	RuralAnole	Maricao Rocks	anole	None
+13332.AF071.MR.GU	NA	NA	AF071	AnoleFeces	Maricao Rocks	gundlachi	anole	RuralAnole	Maricao Rocks	anole	None
+11947.THA0055JZ	NA	NA	THA0055JZ	HumanFeces	Nepal	Homo sapien	adult	ExperiencedFarmerHumans	Tharu	himalaya	None
+11947.THA0058AZ	NA	NA	THA0058AZ	HumanFeces	Nepal	Homo sapien	adult	ExperiencedFarmerHumans	Tharu	himalaya	None
+11947.THA0061JZ	NA	NA	THA0061JZ	HumanFeces	Nepal	Homo sapien	adult	ExperiencedFarmerHumans	Tharu	himalaya	None
+11947.THA0062YZ	NA	NA	THA0062YZ	HumanFeces	Nepal	Homo sapien	adult	ExperiencedFarmerHumans	Tharu	himalaya	None
+11947.THA0065JZ	NA	NA	THA0065JZ	HumanFeces	Nepal	Homo sapien	adult	ExperiencedFarmerHumans	Tharu	himalaya	None
+11947.THA0068JZ	NA	NA	THA0068JZ	HumanFeces	Nepal	Homo sapien	adult	ExperiencedFarmerHumans	Tharu	himalaya	None
+11947.THA0078JZ	NA	NA	THA0078JZ	HumanFeces	Nepal	Homo sapien	adult	ExperiencedFarmerHumans	Tharu	himalaya	None
+11947.THA1056YZ	NA	NA	THA1056YZ	HumanFeces	Nepal	Homo sapien	adult	ExperiencedFarmerHumans	Tharu	himalaya	None
+11947.THA1057JZ	NA	NA	THA1057JZ	HumanFeces	Nepal	Homo sapien	adult	ExperiencedFarmerHumans	Tharu	himalaya	None
+11947.THA1060YZ	NA	NA	THA1060YZ	HumanFeces	Nepal	Homo sapien	adult	ExperiencedFarmerHumans	Tharu	himalaya	None
+11947.THA1063YZ	NA	NA	THA1063YZ	HumanFeces	Nepal	Homo sapien	adult	ExperiencedFarmerHumans	Tharu	himalaya	None
+11947.THA1064JZ	NA	NA	THA1064JZ	HumanFeces	Nepal	Homo sapien	adult	ExperiencedFarmerHumans	Tharu	himalaya	None
+11947.THA1066YZ	NA	NA	THA1066YZ	HumanFeces	Nepal	Homo sapien	adult	ExperiencedFarmerHumans	Tharu	himalaya	None
+11947.THA1067YZ.1	NA	NA	THA1067YZ.1	HumanFeces	Nepal	Homo sapien	adult	ExperiencedFarmerHumans	Tharu	himalaya	None
+11947.THA1070JZ	NA	NA	THA1070JZ	HumanFeces	Nepal	Homo sapien	adult	ExperiencedFarmerHumans	Tharu	himalaya	None
+11947.THA1071YZ	NA	NA	THA1071YZ	HumanFeces	Nepal	Homo sapien	adult	ExperiencedFarmerHumans	Tharu	himalaya	None
+11947.THA1072JZ	NA	NA	THA1072JZ	HumanFeces	Nepal	Homo sapien	adult	ExperiencedFarmerHumans	Tharu	himalaya	None
+11947.THA1074JZ	NA	NA	THA1074JZ	HumanFeces	Nepal	Homo sapien	adult	ExperiencedFarmerHumans	Tharu	himalaya	None
+11947.THA1075YZ	NA	NA	THA1075YZ	HumanFeces	Nepal	Homo sapien	adult	ExperiencedFarmerHumans	Tharu	himalaya	None
+11947.THA1076JZ	NA	NA	THA1076JZ	HumanFeces	Nepal	Homo sapien	adult	ExperiencedFarmerHumans	Tharu	himalaya	None
+11947.CHE0002SZ	NA	NA	CHE0002SZ	HumanFeces	Nepal	Homo sapien	adult	ForagerHuman	Chepang	himalaya	None
+11947.CHE0004BZ	NA	NA	CHE0004BZ	HumanFeces	Nepal	Homo sapien	adult	ForagerHuman	Chepang	himalaya	None
+11947.CHE0005SZ	NA	NA	CHE0005SZ	HumanFeces	Nepal	Homo sapien	adult	ForagerHuman	Chepang	himalaya	None
+11947.CHE0009BZ	NA	NA	CHE0009BZ	HumanFeces	Nepal	Homo sapien	adult	ForagerHuman	Chepang	himalaya	None
+11947.CHE0010BZ	NA	NA	CHE0010BZ	HumanFeces	Nepal	Homo sapien	adult	ForagerHuman	Chepang	himalaya	None
+11947.CHE0012SZ	NA	NA	CHE0012SZ	HumanFeces	Nepal	Homo sapien	adult	ForagerHuman	Chepang	himalaya	None
+11947.CHE0013BZ	NA	NA	CHE0013BZ	HumanFeces	Nepal	Homo sapien	adult	ForagerHuman	Chepang	himalaya	None
+11947.CHE0014TZ	NA	NA	CHE0014TZ	HumanFeces	Nepal	Homo sapien	adult	ForagerHuman	Chepang	himalaya	None
+11947.CHE1003TZ	NA	NA	CHE1003TZ	HumanFeces	Nepal	Homo sapien	adult	ForagerHuman	Chepang	himalaya	None
+11947.CHE1006Z	NA	NA	CHE1006Z	HumanFeces	Nepal	Homo sapien	adult	ForagerHuman	Chepang	himalaya	None
+11947.CHE1007SZ	NA	NA	CHE1007SZ	HumanFeces	Nepal	Homo sapien	adult	ForagerHuman	Chepang	himalaya	None
+11947.CHE1008TZ	NA	NA	CHE1008TZ	HumanFeces	Nepal	Homo sapien	adult	ForagerHuman	Chepang	himalaya	None
+11947.CHE1011TZ	NA	NA	CHE1011TZ	HumanFeces	Nepal	Homo sapien	adult	ForagerHuman	Chepang	himalaya	None
+11947.CHE1020TZ	NA	NA	CHE1020TZ	HumanFeces	Nepal	Homo sapien	adult	ForagerHuman	Chepang	himalaya	None
+11947.RAJ0016YZ	NA	NA	RAJ0016YZ	HumanFeces	Nepal	Homo sapien	adult	RecentFarmerHuman	Raji	himalaya	None
+11947.RAJ0018YZ	NA	NA	RAJ0018YZ	HumanFeces	Nepal	Homo sapien	adult	RecentFarmerHuman	Raji	himalaya	None
+11947.RAJ0019YZ	NA	NA	RAJ0019YZ	HumanFeces	Nepal	Homo sapien	adult	RecentFarmerHuman	Raji	himalaya	None
+11947.RAJ0022YZ	NA	NA	RAJ0022YZ	HumanFeces	Nepal	Homo sapien	adult	RecentFarmerHuman	Raji	himalaya	None
+11947.RAJ1011YZ	NA	NA	RAJ1011YZ	HumanFeces	Nepal	Homo sapien	adult	RecentFarmerHuman	Raji	himalaya	None
+11947.RAJ1012YZ	NA	NA	RAJ1012YZ	HumanFeces	Nepal	Homo sapien	adult	RecentFarmerHuman	Raji	himalaya	None
+11947.RAJ1014YZ	NA	NA	RAJ1014YZ	HumanFeces	Nepal	Homo sapien	adult	RecentFarmerHuman	Raji	himalaya	None
+11947.RAJ1015YZ	NA	NA	RAJ1015YZ	HumanFeces	Nepal	Homo sapien	adult	RecentFarmerHuman	Raji	himalaya	None
+11947.RAJ1020YZ	NA	NA	RAJ1020YZ	HumanFeces	Nepal	Homo sapien	adult	RecentFarmerHuman	Raji	himalaya	None
+11947.RAU0015YZ	NA	NA	RAU0015YZ	HumanFeces	Nepal	Homo sapien	adult	RecentFarmerHuman	Raute	himalaya	None
+11947.RAU0016YZ	NA	NA	RAU0016YZ	HumanFeces	Nepal	Homo sapien	adult	RecentFarmerHuman	Raute	himalaya	None
+11947.RAU0022YZ	NA	NA	RAU0022YZ	HumanFeces	Nepal	Homo sapien	adult	RecentFarmerHuman	Raute	himalaya	None
+11947.RAU0028AZ	NA	NA	RAU0028AZ	HumanFeces	Nepal	Homo sapien	adult	RecentFarmerHuman	Raute	himalaya	None
+11947.RAU1009YZ	NA	NA	RAU1009YZ	HumanFeces	Nepal	Homo sapien	adult	RecentFarmerHuman	Raute	himalaya	None
+11947.RAU1011YZ	NA	NA	RAU1011YZ	HumanFeces	Nepal	Homo sapien	adult	RecentFarmerHuman	Raute	himalaya	None
+11947.RAU1013YZ	NA	NA	RAU1013YZ	HumanFeces	Nepal	Homo sapien	adult	RecentFarmerHuman	Raute	himalaya	None
+11947.RAU1014YZ	NA	NA	RAU1014YZ	HumanFeces	Nepal	Homo sapien	adult	RecentFarmerHuman	Raute	himalaya	None
+11947.RAU1020YZ	NA	NA	RAU1020YZ	HumanFeces	Nepal	Homo sapien	adult	RecentFarmerHuman	Raute	himalaya	None
+11947.RAU1026YZ	NA	NA	RAU1026YZ	HumanFeces	Nepal	Homo sapien	adult	RecentFarmerHuman	Raute	himalaya	None
+11947.RAU1029Y	NA	NA	RAU1029Y	HumanFeces	Nepal	Homo sapien	adult	RecentFarmerHuman	Raute	himalaya	None
+850.h101M.1	NA	NA	h101M.1	HumanFeces	Malawi	Homo sapien	adult	RuralHuman	Malawi	yatsunenko	Rural
+850.h101S.1	NA	NA	h101S.1	HumanFeces	Malawi	Homo sapien	adult	RuralHuman	Malawi	yatsunenko	Rural
+850.h10M.1	NA	NA	h10M.1	HumanFeces	Malawi	Homo sapien	adult	RuralHuman	Malawi	yatsunenko	Rural
+850.h121S.1	NA	NA	h121S.1	HumanFeces	Malawi	Homo sapien	adult	RuralHuman	Malawi	yatsunenko	Rural
+850.h122M.1	NA	NA	h122M.1	HumanFeces	Malawi	Homo sapien	adult	RuralHuman	Malawi	yatsunenko	Rural
+850.h122S.1	NA	NA	h122S.1	HumanFeces	Malawi	Homo sapien	adult	RuralHuman	Malawi	yatsunenko	Rural
+850.h128M.1	NA	NA	h128M.1	HumanFeces	Malawi	Homo sapien	adult	RuralHuman	Malawi	yatsunenko	Rural
+850.h128S.1	NA	NA	h128S.1	HumanFeces	Malawi	Homo sapien	adult	RuralHuman	Malawi	yatsunenko	Rural
+850.h130M.1	NA	NA	h130M.1	HumanFeces	Malawi	Homo sapien	adult	RuralHuman	Malawi	yatsunenko	Rural
+850.h130S.1	NA	NA	h130S.1	HumanFeces	Malawi	Homo sapien	adult	RuralHuman	Malawi	yatsunenko	Rural
+850.h144M.1	NA	NA	h144M.1	HumanFeces	Malawi	Homo sapien	adult	RuralHuman	Malawi	yatsunenko	Rural
+850.h146M.1	NA	NA	h146M.1	HumanFeces	Malawi	Homo sapien	adult	RuralHuman	Malawi	yatsunenko	Rural
+850.h147M.1	NA	NA	h147M.1	HumanFeces	Malawi	Homo sapien	adult	RuralHuman	Malawi	yatsunenko	Rural
+850.h165M.1	NA	NA	h165M.1	HumanFeces	Malawi	Homo sapien	adult	RuralHuman	Malawi	yatsunenko	Rural
+850.h165S.1	NA	NA	h165S.1	HumanFeces	Malawi	Homo sapien	adult	RuralHuman	Malawi	yatsunenko	Rural
+850.h181M.1	NA	NA	h181M.1	HumanFeces	Malawi	Homo sapien	adult	RuralHuman	Malawi	yatsunenko	Rural
+850.h181S.1	NA	NA	h181S.1	HumanFeces	Malawi	Homo sapien	adult	RuralHuman	Malawi	yatsunenko	Rural
+850.h186M.1	NA	NA	h186M.1	HumanFeces	Malawi	Homo sapien	adult	RuralHuman	Malawi	yatsunenko	Rural
+850.h186S.1	NA	NA	h186S.1	HumanFeces	Malawi	Homo sapien	adult	RuralHuman	Malawi	yatsunenko	Rural
+850.h208M.1	NA	NA	h208M.1	HumanFeces	Malawi	Homo sapien	adult	RuralHuman	Malawi	yatsunenko	Rural
+850.h209M.1	NA	NA	h209M.1	HumanFeces	Malawi	Homo sapien	adult	RuralHuman	Malawi	yatsunenko	Rural
+850.h209S.1	NA	NA	h209S.1	HumanFeces	Malawi	Homo sapien	adult	RuralHuman	Malawi	yatsunenko	Rural
+850.h228M.1	NA	NA	h228M.1	HumanFeces	Malawi	Homo sapien	adult	RuralHuman	Malawi	yatsunenko	Rural
+850.h228S.1	NA	NA	h228S.1	HumanFeces	Malawi	Homo sapien	adult	RuralHuman	Malawi	yatsunenko	Rural
+850.h235M.1	NA	NA	h235M.1	HumanFeces	Malawi	Homo sapien	adult	RuralHuman	Malawi	yatsunenko	Rural
+850.h257M.1	NA	NA	h257M.1	HumanFeces	Malawi	Homo sapien	adult	RuralHuman	Malawi	yatsunenko	Rural
+850.h257S.1	NA	NA	h257S.1	HumanFeces	Malawi	Homo sapien	adult	RuralHuman	Malawi	yatsunenko	Rural
+850.h259M.1	NA	NA	h259M.1	HumanFeces	Malawi	Homo sapien	adult	RuralHuman	Malawi	yatsunenko	Rural
+850.h259S.1	NA	NA	h259S.1	HumanFeces	Malawi	Homo sapien	adult	RuralHuman	Malawi	yatsunenko	Rural
+850.h264M.1	NA	NA	h264M.1	HumanFeces	Malawi	Homo sapien	adult	RuralHuman	Malawi	yatsunenko	Rural
+850.h273M.1	NA	NA	h273M.1	HumanFeces	Malawi	Homo sapien	adult	RuralHuman	Malawi	yatsunenko	Rural
+850.h279M.1	NA	NA	h279M.1	HumanFeces	Malawi	Homo sapien	adult	RuralHuman	Malawi	yatsunenko	Rural
+850.h279S.1	NA	NA	h279S.1	HumanFeces	Malawi	Homo sapien	adult	RuralHuman	Malawi	yatsunenko	Rural
+850.h301M.1	NA	NA	h301M.1	HumanFeces	Malawi	Homo sapien	adult	RuralHuman	Malawi	yatsunenko	Rural
+850.h305M.1	NA	NA	h305M.1	HumanFeces	Malawi	Homo sapien	adult	RuralHuman	Malawi	yatsunenko	Rural
+850.h35S.1	NA	NA	h35S.1	HumanFeces	Malawi	Homo sapien	adult	RuralHuman	Malawi	yatsunenko	Rural
+850.h37M.1	NA	NA	h37M.1	HumanFeces	Malawi	Homo sapien	adult	RuralHuman	Malawi	yatsunenko	Rural
+850.h37S.1	NA	NA	h37S.1	HumanFeces	Malawi	Homo sapien	adult	RuralHuman	Malawi	yatsunenko	Rural
+850.h47M.1	NA	NA	h47M.1	HumanFeces	Malawi	Homo sapien	adult	RuralHuman	Malawi	yatsunenko	Rural
+850.h47S.1	NA	NA	h47S.1	HumanFeces	Malawi	Homo sapien	adult	RuralHuman	Malawi	yatsunenko	Rural
+850.h60M.1	NA	NA	h60M.1	HumanFeces	Malawi	Homo sapien	adult	RuralHuman	Malawi	yatsunenko	Rural
+850.h60S.1	NA	NA	h60S.1	HumanFeces	Malawi	Homo sapien	adult	RuralHuman	Malawi	yatsunenko	Rural
+850.h68M.1	NA	NA	h68M.1	HumanFeces	Malawi	Homo sapien	adult	RuralHuman	Malawi	yatsunenko	Rural
+850.h78M.1	NA	NA	h78M.1	HumanFeces	Malawi	Homo sapien	adult	RuralHuman	Malawi	yatsunenko	Rural
+850.h78S.1	NA	NA	h78S.1	HumanFeces	Malawi	Homo sapien	adult	RuralHuman	Malawi	yatsunenko	Rural
+850.h85M.1	NA	NA	h85M.1	HumanFeces	Malawi	Homo sapien	adult	RuralHuman	Malawi	yatsunenko	Rural
+850.h85S.1	NA	NA	h85S.1	HumanFeces	Malawi	Homo sapien	adult	RuralHuman	Malawi	yatsunenko	Rural
+850.h95M.1	NA	NA	h95M.1	HumanFeces	Malawi	Homo sapien	adult	RuralHuman	Malawi	yatsunenko	Rural
+850.h95S.1	NA	NA	h95S.1	HumanFeces	Malawi	Homo sapien	adult	RuralHuman	Malawi	yatsunenko	Rural
+850.h9M.1	NA	NA	h9M.1	HumanFeces	Malawi	Homo sapien	adult	RuralHuman	Malawi	yatsunenko	Rural
+850.h9S.1	NA	NA	h9S.1	HumanFeces	Malawi	Homo sapien	adult	RuralHuman	Malawi	yatsunenko	Rural
+850.k278A.2	NA	NA	k278A.2	HumanFeces	Malawi	Homo sapien	adult	RuralHuman	Malawi	yatsunenko	Rural
+850.k278B.2	NA	NA	k278B.2	HumanFeces	Malawi	Homo sapien	adult	RuralHuman	Malawi	yatsunenko	Rural
+850.k278M.1	NA	NA	k278M.1	HumanFeces	Malawi	Homo sapien	adult	RuralHuman	Malawi	yatsunenko	Rural
+14419.ERR3618860	NA	NA	BEN70	HumanFeces	Ngoantet	Homo sapien	adult	RuralHuman	Rural	cameroon	Rural
+14419.ERR3618865	NA	NA	BEN09	HumanFeces	Ngoantet	Homo sapien	adult	RuralHuman	Rural	cameroon	Rural
+14419.ERR3618867	NA	NA	BEN62	HumanFeces	Ngoantet	Homo sapien	adult	RuralHuman	Rural	cameroon	Rural
+14419.ERR3618868	NA	NA	BEN33	HumanFeces	Ngoantet	Homo sapien	adult	RuralHuman	Rural	cameroon	Rural
+14419.ERR3618869	NA	NA	BEN39	HumanFeces	Ngoantet	Homo sapien	adult	RuralHuman	Rural	cameroon	Rural
+14419.ERR3618878	NA	NA	BEN25	HumanFeces	Ngoantet	Homo sapien	adult	RuralHuman	Rural	cameroon	Rural
+14419.ERR3618879	NA	NA	BEN73	HumanFeces	Ngoantet	Homo sapien	adult	RuralHuman	Rural	cameroon	Rural
+14419.ERR3618881	NA	NA	BEN48	HumanFeces	Ngoantet	Homo sapien	adult	RuralHuman	Rural	cameroon	Rural
+14419.ERR3618882	NA	NA	BEN01	HumanFeces	Ngoantet	Homo sapien	adult	RuralHuman	Rural	cameroon	Rural
+14419.ERR3618888	NA	NA	BEN45	HumanFeces	Ngoantet	Homo sapien	adult	RuralHuman	Rural	cameroon	Rural
+14419.ERR3618895	NA	NA	BEN15	HumanFeces	Ngoantet	Homo sapien	adult	RuralHuman	Rural	cameroon	Rural
+14419.ERR3618905	NA	NA	BEN10	HumanFeces	Ngoantet	Homo sapien	adult	RuralHuman	Rural	cameroon	Rural
+14419.ERR3618907	NA	NA	BEN08	HumanFeces	Ngoantet	Homo sapien	adult	RuralHuman	Rural	cameroon	Rural
+14419.ERR3618909	NA	NA	BEN74	HumanFeces	Ngoantet	Homo sapien	adult	RuralHuman	Rural	cameroon	Rural
+14419.ERR3618911	NA	NA	BEN36	HumanFeces	Ngoantet	Homo sapien	adult	RuralHuman	Rural	cameroon	Rural
+14419.ERR3618913	NA	NA	BEN78	HumanFeces	Ngoantet	Homo sapien	adult	RuralHuman	Rural	cameroon	Rural
+14419.ERR3618914	NA	NA	BEN64	HumanFeces	Ngoantet	Homo sapien	adult	RuralHuman	Rural	cameroon	Rural
+14419.ERR3618915	NA	NA	BEN82	HumanFeces	Ngoantet	Homo sapien	adult	RuralHuman	Rural	cameroon	Rural
+14419.ERR3618919	NA	NA	BEN72	HumanFeces	Ngoantet	Homo sapien	adult	RuralHuman	Rural	cameroon	Rural
+14419.ERR3618920	NA	NA	BEN71	HumanFeces	Ngoantet	Homo sapien	adult	RuralHuman	Rural	cameroon	Rural
+14419.ERR3618924	NA	NA	BEN12	HumanFeces	Ngoantet	Homo sapien	adult	RuralHuman	Rural	cameroon	Rural
+14419.ERR3618925	NA	NA	BEN56	HumanFeces	Ngoantet	Homo sapien	adult	RuralHuman	Rural	cameroon	Rural
+14419.ERR3618931	NA	NA	BEN17	HumanFeces	Ngoantet	Homo sapien	adult	RuralHuman	Rural	cameroon	Rural
+14419.ERR3618936	NA	NA	BEN65	HumanFeces	Ngoantet	Homo sapien	adult	RuralHuman	Rural	cameroon	Rural
+14419.ERR3618937	NA	NA	BEN14	HumanFeces	Ngoantet	Homo sapien	adult	RuralHuman	Rural	cameroon	Rural
+14419.ERR3618939	NA	NA	BEN16	HumanFeces	Ngoantet	Homo sapien	adult	RuralHuman	Rural	cameroon	Rural
+14419.ERR3618951	NA	NA	BEN30	HumanFeces	Ngoantet	Homo sapien	adult	RuralHuman	Rural	cameroon	Rural
+14419.ERR3618952	NA	NA	BEN61	HumanFeces	Ngoantet	Homo sapien	adult	RuralHuman	Rural	cameroon	Rural
+14419.ERR3618953	NA	NA	BEN46	HumanFeces	Ngoantet	Homo sapien	adult	RuralHuman	Rural	cameroon	Rural
+14419.ERR3618965	NA	NA	BEN52	HumanFeces	Ngoantet	Homo sapien	adult	RuralHuman	Rural	cameroon	Rural
+14419.ERR3618966	NA	NA	BEN57	HumanFeces	Ngoantet	Homo sapien	adult	RuralHuman	Rural	cameroon	Rural
+14419.ERR3618967	NA	NA	BEN50	HumanFeces	Ngoantet	Homo sapien	adult	RuralHuman	Rural	cameroon	Rural
+14419.ERR3618968	NA	NA	BEN18	HumanFeces	Ngoantet	Homo sapien	adult	RuralHuman	Rural	cameroon	Rural
+14419.ERR3618974	NA	NA	BEN58	HumanFeces	Ngoantet	Homo sapien	adult	RuralHuman	Rural	cameroon	Rural
+14419.ERR3618980	NA	NA	BEN75	HumanFeces	Ngoantet	Homo sapien	adult	RuralHuman	Rural	cameroon	Rural
+14419.ERR3618981	NA	NA	BEN54	HumanFeces	Ngoantet	Homo sapien	adult	RuralHuman	Rural	cameroon	Rural
+14419.ERR3618982	NA	NA	BEN51	HumanFeces	Ngoantet	Homo sapien	adult	RuralHuman	Rural	cameroon	Rural
+14419.ERR3618983	NA	NA	BEN42	HumanFeces	Ngoantet	Homo sapien	adult	RuralHuman	Rural	cameroon	Rural
+14419.ERR3618985	NA	NA	BEN23	HumanFeces	Ngoantet	Homo sapien	adult	RuralHuman	Rural	cameroon	Rural
+14419.ERR3618986	NA	NA	BEN77	HumanFeces	Ngoantet	Homo sapien	adult	RuralHuman	Rural	cameroon	Rural
+14419.ERR3618987	NA	NA	BEN35	HumanFeces	Ngoantet	Homo sapien	adult	RuralHuman	Rural	cameroon	Rural
+14419.ERR3618990	NA	NA	BEN06	HumanFeces	Ngoantet	Homo sapien	adult	RuralHuman	Rural	cameroon	Rural
+14419.ERR3618854	NA	NA	BEN34	HumanFeces	Ngoantet	Homo sapien	adult	RuralHuman	Rural	cameroon	Rural
+14419.ERR3618859	NA	NA	BEN29	HumanFeces	Ngoantet	Homo sapien	adult	RuralHuman	Rural	cameroon	Rural
+14419.ERR3618861	NA	NA	BEN76	HumanFeces	Ngoantet	Homo sapien	adult	RuralHuman	Rural	cameroon	Rural
+14419.ERR3618863	NA	NA	BEN37	HumanFeces	Ngoantet	Homo sapien	adult	RuralHuman	Rural	cameroon	Rural
+14419.ERR3618864	NA	NA	BEN81	HumanFeces	Ngoantet	Homo sapien	adult	RuralHuman	Rural	cameroon	Rural
+14419.ERR3618871	NA	NA	BEN66	HumanFeces	Ngoantet	Homo sapien	adult	RuralHuman	Rural	cameroon	Rural
+14419.ERR3618874	NA	NA	BEN49	HumanFeces	Ngoantet	Homo sapien	adult	RuralHuman	Rural	cameroon	Rural
+14419.ERR3618876	NA	NA	BEN80	HumanFeces	Ngoantet	Homo sapien	adult	RuralHuman	Rural	cameroon	Rural
+14419.ERR3618877	NA	NA	BEN05	HumanFeces	Ngoantet	Homo sapien	adult	RuralHuman	Rural	cameroon	Rural
+14419.ERR3618880	NA	NA	BEN22	HumanFeces	Ngoantet	Homo sapien	adult	RuralHuman	Rural	cameroon	Rural
+14419.ERR3618883	NA	NA	BEN11	HumanFeces	Ngoantet	Homo sapien	adult	RuralHuman	Rural	cameroon	Rural
+14419.ERR3618884	NA	NA	BEN07	HumanFeces	Ngoantet	Homo sapien	adult	RuralHuman	Rural	cameroon	Rural
+14419.ERR3618885	NA	NA	BEN38	HumanFeces	Ngoantet	Homo sapien	adult	RuralHuman	Rural	cameroon	Rural
+14419.ERR3618889	NA	NA	BEN41	HumanFeces	Ngoantet	Homo sapien	adult	RuralHuman	Rural	cameroon	Rural
+14419.ERR3618890	NA	NA	BEN63	HumanFeces	Ngoantet	Homo sapien	adult	RuralHuman	Rural	cameroon	Rural
+14419.ERR3618893	NA	NA	BEN40	HumanFeces	Ngoantet	Homo sapien	adult	RuralHuman	Rural	cameroon	Rural
+14419.ERR3618896	NA	NA	BEN02	HumanFeces	Ngoantet	Homo sapien	adult	RuralHuman	Rural	cameroon	Rural
+14419.ERR3618899	NA	NA	BEN28	HumanFeces	Ngoantet	Homo sapien	adult	RuralHuman	Rural	cameroon	Rural
+14419.ERR3618901	NA	NA	BEN32	HumanFeces	Ngoantet	Homo sapien	adult	RuralHuman	Rural	cameroon	Rural
+14419.ERR3618903	NA	NA	BEN19	HumanFeces	Ngoantet	Homo sapien	adult	RuralHuman	Rural	cameroon	Rural
+14419.ERR3618906	NA	NA	BEN26	HumanFeces	Ngoantet	Homo sapien	adult	RuralHuman	Rural	cameroon	Rural
+14419.ERR3618910	NA	NA	BEN47	HumanFeces	Ngoantet	Homo sapien	adult	RuralHuman	Rural	cameroon	Rural
+14419.ERR3618929	NA	NA	BEN69	HumanFeces	Ngoantet	Homo sapien	adult	RuralHuman	Rural	cameroon	Rural
+14419.ERR3618930	NA	NA	BEN13	HumanFeces	Ngoantet	Homo sapien	adult	RuralHuman	Rural	cameroon	Rural
+14419.ERR3618932	NA	NA	BEN31	HumanFeces	Ngoantet	Homo sapien	adult	RuralHuman	Rural	cameroon	Rural
+14419.ERR3618935	NA	NA	BEN20	HumanFeces	Ngoantet	Homo sapien	adult	RuralHuman	Rural	cameroon	Rural
+14419.ERR3618941	NA	NA	BEN44	HumanFeces	Ngoantet	Homo sapien	adult	RuralHuman	Rural	cameroon	Rural
+14419.ERR3618943	NA	NA	BEN24	HumanFeces	Ngoantet	Homo sapien	adult	RuralHuman	Rural	cameroon	Rural
+14419.ERR3618944	NA	NA	BEN43	HumanFeces	Ngoantet	Homo sapien	adult	RuralHuman	Rural	cameroon	Rural
+14419.ERR3618947	NA	NA	BEN60	HumanFeces	Ngoantet	Homo sapien	adult	RuralHuman	Rural	cameroon	Rural
+14419.ERR3618950	NA	NA	BEN21	HumanFeces	Ngoantet	Homo sapien	adult	RuralHuman	Rural	cameroon	Rural
+14419.ERR3618957	NA	NA	BEN59	HumanFeces	Ngoantet	Homo sapien	adult	RuralHuman	Rural	cameroon	Rural
+14419.ERR3618958	NA	NA	BEN27	HumanFeces	Ngoantet	Homo sapien	adult	RuralHuman	Rural	cameroon	Rural
+14419.ERR3618962	NA	NA	BEN53	HumanFeces	Ngoantet	Homo sapien	adult	RuralHuman	Rural	cameroon	Rural
+14419.ERR3618969	NA	NA	BEN04	HumanFeces	Ngoantet	Homo sapien	adult	RuralHuman	Rural	cameroon	Rural
+14419.ERR3618976	NA	NA	BEN55	HumanFeces	Ngoantet	Homo sapien	adult	RuralHuman	Rural	cameroon	Rural
+14419.ERR3618984	NA	NA	BEN79	HumanFeces	Ngoantet	Homo sapien	adult	RuralHuman	Rural	cameroon	Rural
+850.Amz1teenF	NA	NA	Amz1teenF	HumanFeces	Venezuela	Homo sapien	adult	RuralHuman	Venezuela	yatsunenko	Rural
+850.Amz29adlt	NA	NA	Amz29adlt	HumanFeces	Venezuela	Homo sapien	adult	RuralHuman	Venezuela	yatsunenko	Rural
+850.Amz2adltF	NA	NA	Amz2adltF	HumanFeces	Venezuela	Homo sapien	adult	RuralHuman	Venezuela	yatsunenko	Rural
+850.Amz30adlt	NA	NA	Amz30adlt	HumanFeces	Venezuela	Homo sapien	adult	RuralHuman	Venezuela	yatsunenko	Rural
+850.Amz31adlt	NA	NA	Amz31adlt	HumanFeces	Venezuela	Homo sapien	adult	RuralHuman	Venezuela	yatsunenko	Rural
+850.Amz32eldF	NA	NA	Amz32eldF	HumanFeces	Venezuela	Homo sapien	adult	RuralHuman	Venezuela	yatsunenko	Rural
+850.Amz33eld	NA	NA	Amz33eld	HumanFeces	Venezuela	Homo sapien	adult	RuralHuman	Venezuela	yatsunenko	Rural
+850.Amz34eld	NA	NA	Amz34eld	HumanFeces	Venezuela	Homo sapien	adult	RuralHuman	Venezuela	yatsunenko	Rural
+850.Amz4adltF	NA	NA	Amz4adltF	HumanFeces	Venezuela	Homo sapien	adult	RuralHuman	Venezuela	yatsunenko	Rural
+850.Amz5eldF	NA	NA	Amz5eldF	HumanFeces	Venezuela	Homo sapien	adult	RuralHuman	Venezuela	yatsunenko	Rural
+850.Amz5teenF	NA	NA	Amz5teenF	HumanFeces	Venezuela	Homo sapien	adult	RuralHuman	Venezuela	yatsunenko	Rural
+850.Amz6eldF	NA	NA	Amz6eldF	HumanFeces	Venezuela	Homo sapien	adult	RuralHuman	Venezuela	yatsunenko	Rural
+850.Amz6eldM	NA	NA	Amz6eldM	HumanFeces	Venezuela	Homo sapien	adult	RuralHuman	Venezuela	yatsunenko	Rural
+850.Amz6teen	NA	NA	Amz6teen	HumanFeces	Venezuela	Homo sapien	adult	RuralHuman	Venezuela	yatsunenko	Rural
+850.Amz7adltF	NA	NA	Amz7adltF	HumanFeces	Venezuela	Homo sapien	adult	RuralHuman	Venezuela	yatsunenko	Rural
+850.Amz7eldM	NA	NA	Amz7eldM	HumanFeces	Venezuela	Homo sapien	adult	RuralHuman	Venezuela	yatsunenko	Rural
+850.AmzC10adltF1	NA	NA	AmzC10adltF1	HumanFeces	Venezuela	Homo sapien	adult	RuralHuman	Venezuela	yatsunenko	Rural
+850.AmzC10adltF2	NA	NA	AmzC10adltF2	HumanFeces	Venezuela	Homo sapien	adult	RuralHuman	Venezuela	yatsunenko	Rural
+850.AmzC11adltF1	NA	NA	AmzC11adltF1	HumanFeces	Venezuela	Homo sapien	adult	RuralHuman	Venezuela	yatsunenko	Rural
+850.AmzC11adltF2	NA	NA	AmzC11adltF2	HumanFeces	Venezuela	Homo sapien	adult	RuralHuman	Venezuela	yatsunenko	Rural
+850.AmzC11adltF3	NA	NA	AmzC11adltF3	HumanFeces	Venezuela	Homo sapien	adult	RuralHuman	Venezuela	yatsunenko	Rural
+850.AmzC12adltF	NA	NA	AmzC12adltF	HumanFeces	Venezuela	Homo sapien	adult	RuralHuman	Venezuela	yatsunenko	Rural
+850.AmzC1babyF1	NA	NA	AmzC1babyF1	HumanFeces	Venezuela	Homo sapien	adult	RuralHuman	Venezuela	yatsunenko	Rural
+850.AmzC29adltF	NA	NA	AmzC29adltF	HumanFeces	Venezuela	Homo sapien	adult	RuralHuman	Venezuela	yatsunenko	Rural
+850.AmzC2adltF	NA	NA	AmzC2adltF	HumanFeces	Venezuela	Homo sapien	adult	RuralHuman	Venezuela	yatsunenko	Rural
+850.AmzC30adltF	NA	NA	AmzC30adltF	HumanFeces	Venezuela	Homo sapien	adult	RuralHuman	Venezuela	yatsunenko	Rural
+850.AmzC31adltF	NA	NA	AmzC31adltF	HumanFeces	Venezuela	Homo sapien	adult	RuralHuman	Venezuela	yatsunenko	Rural
+850.AmzC32adltF	NA	NA	AmzC32adltF	HumanFeces	Venezuela	Homo sapien	adult	RuralHuman	Venezuela	yatsunenko	Rural
+850.AmzC33adltF	NA	NA	AmzC33adltF	HumanFeces	Venezuela	Homo sapien	adult	RuralHuman	Venezuela	yatsunenko	Rural
+850.AmzC3adltF	NA	NA	AmzC3adltF	HumanFeces	Venezuela	Homo sapien	adult	RuralHuman	Venezuela	yatsunenko	Rural
+850.AmzC3adltM	NA	NA	AmzC3adltM	HumanFeces	Venezuela	Homo sapien	adult	RuralHuman	Venezuela	yatsunenko	Rural
+850.AmzC4adltF	NA	NA	AmzC4adltF	HumanFeces	Venezuela	Homo sapien	adult	RuralHuman	Venezuela	yatsunenko	Rural
+850.AmzC5adltF	NA	NA	AmzC5adltF	HumanFeces	Venezuela	Homo sapien	adult	RuralHuman	Venezuela	yatsunenko	Rural
+850.AmzC6adltF	NA	NA	AmzC6adltF	HumanFeces	Venezuela	Homo sapien	adult	RuralHuman	Venezuela	yatsunenko	Rural
+850.AmzC7adltF	NA	NA	AmzC7adltF	HumanFeces	Venezuela	Homo sapien	adult	RuralHuman	Venezuela	yatsunenko	Rural
+850.AmzC8adltM	NA	NA	AmzC8adltM	HumanFeces	Venezuela	Homo sapien	adult	RuralHuman	Venezuela	yatsunenko	Rural
+850.AmzC9adltF	NA	NA	AmzC9adltF	HumanFeces	Venezuela	Homo sapien	adult	RuralHuman	Venezuela	yatsunenko	Rural
+850.AmzC9adltM	NA	NA	AmzC9adltM	HumanFeces	Venezuela	Homo sapien	adult	RuralHuman	Venezuela	yatsunenko	Rural
+14419.ERR3618855	NA	NA	BEB22	HumanFeces	Mbalmayo	Homo sapien	adult	SemiUrbanHuman	Semi-urban	cameroon	None
+14419.ERR3618862	NA	NA	BEB28	HumanFeces	Mbalmayo	Homo sapien	adult	SemiUrbanHuman	Semi-urban	cameroon	None
+14419.ERR3618912	NA	NA	BEB23	HumanFeces	Mbalmayo	Homo sapien	adult	SemiUrbanHuman	Semi-urban	cameroon	None
+14419.ERR3618917	NA	NA	BEB29	HumanFeces	Mbalmayo	Homo sapien	adult	SemiUrbanHuman	Semi-urban	cameroon	None
+14419.ERR3618918	NA	NA	BEB04	HumanFeces	Mbalmayo	Homo sapien	adult	SemiUrbanHuman	Semi-urban	cameroon	None
+14419.ERR3618946	NA	NA	BEB31	HumanFeces	Mbalmayo	Homo sapien	adult	SemiUrbanHuman	Semi-urban	cameroon	None
+14419.ERR3618949	NA	NA	BEB32	HumanFeces	Mbalmayo	Homo sapien	adult	SemiUrbanHuman	Semi-urban	cameroon	None
+14419.ERR3618956	NA	NA	BEB25	HumanFeces	Mbalmayo	Homo sapien	adult	SemiUrbanHuman	Semi-urban	cameroon	None
+14419.ERR3618959	NA	NA	BEB02	HumanFeces	Mbalmayo	Homo sapien	adult	SemiUrbanHuman	Semi-urban	cameroon	None
+14419.ERR3618961	NA	NA	BEB30	HumanFeces	Mbalmayo	Homo sapien	adult	SemiUrbanHuman	Semi-urban	cameroon	None
+14419.ERR3618970	NA	NA	BEB16	HumanFeces	Mbalmayo	Homo sapien	adult	SemiUrbanHuman	Semi-urban	cameroon	None
+14419.ERR3618977	NA	NA	BEB10	HumanFeces	Mbalmayo	Homo sapien	adult	SemiUrbanHuman	Semi-urban	cameroon	None
+14419.ERR3618978	NA	NA	BEB09	HumanFeces	Mbalmayo	Homo sapien	adult	SemiUrbanHuman	Semi-urban	cameroon	None
+14419.ERR3618979	NA	NA	BEB11	HumanFeces	Mbalmayo	Homo sapien	adult	SemiUrbanHuman	Semi-urban	cameroon	None
+14419.ERR3618991	NA	NA	BEB26	HumanFeces	Mbalmayo	Homo sapien	adult	SemiUrbanHuman	Semi-urban	cameroon	None
+14419.ERR3618993	NA	NA	BEB07	HumanFeces	Mbalmayo	Homo sapien	adult	SemiUrbanHuman	Semi-urban	cameroon	None
+14419.ERR3618994	NA	NA	BEB08	HumanFeces	Mbalmayo	Homo sapien	adult	SemiUrbanHuman	Semi-urban	cameroon	None
+14419.ERR3618996	NA	NA	BEB14	HumanFeces	Mbalmayo	Homo sapien	adult	SemiUrbanHuman	Semi-urban	cameroon	None
+14419.ERR3618886	NA	NA	BEB33	HumanFeces	Mbalmayo	Homo sapien	adult	SemiUrbanHuman	Semi-urban	cameroon	None
+14419.ERR3618887	NA	NA	BEB27	HumanFeces	Mbalmayo	Homo sapien	adult	SemiUrbanHuman	Semi-urban	cameroon	None
+14419.ERR3618900	NA	NA	BEB15	HumanFeces	Mbalmayo	Homo sapien	adult	SemiUrbanHuman	Semi-urban	cameroon	None
+14419.ERR3618955	NA	NA	BEB24	HumanFeces	Mbalmayo	Homo sapien	adult	SemiUrbanHuman	Semi-urban	cameroon	None
+14419.ERR3618960	NA	NA	BEB13	HumanFeces	Mbalmayo	Homo sapien	adult	SemiUrbanHuman	Semi-urban	cameroon	None
+14419.ERR3618963	NA	NA	BEB05	HumanFeces	Mbalmayo	Homo sapien	adult	SemiUrbanHuman	Semi-urban	cameroon	None
+14419.ERR3618964	NA	NA	BEB01	HumanFeces	Mbalmayo	Homo sapien	adult	SemiUrbanHuman	Semi-urban	cameroon	None
+14419.ERR3618971	NA	NA	BEB19	HumanFeces	Mbalmayo	Homo sapien	adult	SemiUrbanHuman	Semi-urban	cameroon	None
+14419.ERR3618973	NA	NA	BEB21	HumanFeces	Mbalmayo	Homo sapien	adult	SemiUrbanHuman	Semi-urban	cameroon	None
+14419.ERR3618975	NA	NA	BEB18	HumanFeces	Mbalmayo	Homo sapien	adult	SemiUrbanHuman	Semi-urban	cameroon	None
+14419.ERR3618988	NA	NA	BEB03	HumanFeces	Mbalmayo	Homo sapien	adult	SemiUrbanHuman	Semi-urban	cameroon	None
+14419.ERR3618989	NA	NA	BEB34	HumanFeces	Mbalmayo	Homo sapien	adult	SemiUrbanHuman	Semi-urban	cameroon	None
+14419.ERR3618992	NA	NA	BEB06	HumanFeces	Mbalmayo	Homo sapien	adult	SemiUrbanHuman	Semi-urban	cameroon	None
+14419.ERR3618995	NA	NA	BEB17	HumanFeces	Mbalmayo	Homo sapien	adult	SemiUrbanHuman	Semi-urban	cameroon	None
+14419.ERR3618997	NA	NA	BEB12	HumanFeces	Mbalmayo	Homo sapien	adult	SemiUrbanHuman	Semi-urban	cameroon	None
+14420.ERR2182694	NA	NA	AP263	HumanFeces	Tibet	Homo sapien	adult	SemiUrbanHuman	Semi-Urban	tibet	None
+14420.ERR2182695	NA	NA	AP264	HumanFeces	Tibet	Homo sapien	adult	SemiUrbanHuman	Semi-Urban	tibet	None
+14420.ERR2182696	NA	NA	AP265	HumanFeces	Tibet	Homo sapien	adult	SemiUrbanHuman	Semi-Urban	tibet	None
+14420.ERR2182697	NA	NA	AP266	HumanFeces	Tibet	Homo sapien	adult	SemiUrbanHuman	Semi-Urban	tibet	None
+14420.ERR2182698	NA	NA	AP267	HumanFeces	Tibet	Homo sapien	adult	SemiUrbanHuman	Semi-Urban	tibet	None
+14420.ERR2182699	NA	NA	AP268	HumanFeces	Tibet	Homo sapien	adult	SemiUrbanHuman	Semi-Urban	tibet	None
+14420.ERR2182700	NA	NA	AP269	HumanFeces	Tibet	Homo sapien	adult	SemiUrbanHuman	Semi-Urban	tibet	None
+14420.ERR2182701	NA	NA	AP270	HumanFeces	Tibet	Homo sapien	adult	SemiUrbanHuman	Semi-Urban	tibet	None
+14420.ERR2182686	NA	NA	AP255	HumanFeces	Tibet	Homo sapien	adult	TraditionalHuman	Traditional	tibet	Rural
+14420.ERR2182687	NA	NA	AP256	HumanFeces	Tibet	Homo sapien	adult	TraditionalHuman	Traditional	tibet	Rural
+14420.ERR2182688	NA	NA	AP257	HumanFeces	Tibet	Homo sapien	adult	TraditionalHuman	Traditional	tibet	Rural
+14420.ERR2182689	NA	NA	AP258	HumanFeces	Tibet	Homo sapien	adult	TraditionalHuman	Traditional	tibet	Rural
+14420.ERR2182690	NA	NA	AP259	HumanFeces	Tibet	Homo sapien	adult	TraditionalHuman	Traditional	tibet	Rural
+14420.ERR2182691	NA	NA	AP260	HumanFeces	Tibet	Homo sapien	adult	TraditionalHuman	Traditional	tibet	Rural
+14420.ERR2182692	NA	NA	AP261	HumanFeces	Tibet	Homo sapien	adult	TraditionalHuman	Traditional	tibet	Rural
+14420.ERR2182693	NA	NA	AP262	HumanFeces	Tibet	Homo sapien	adult	TraditionalHuman	Traditional	tibet	Rural
+11947.EUR0003	NA	NA	EUR0003	HumanFeces	USA	Homo sapien	adult	UbanHuman	Europeans	himalaya	Urban
+11947.EUR0003.RT.1	NA	NA	EUR0003	HumanFeces	USA	Homo sapien	adult	UbanHuman	Europeans	himalaya	Urban
+11947.EUR0003.RT.2	NA	NA	EUR0003	HumanFeces	USA	Homo sapien	adult	UbanHuman	Europeans	himalaya	Urban
+11947.EUR0003.RT.3	NA	NA	EUR0003	HumanFeces	USA	Homo sapien	adult	UbanHuman	Europeans	himalaya	Urban
+11947.EUR0005	NA	NA	EUR0005	HumanFeces	USA	Homo sapien	adult	UbanHuman	Europeans	himalaya	Urban
+11947.EUR0005.RT	NA	NA	EUR0005	HumanFeces	USA	Homo sapien	adult	UbanHuman	Europeans	himalaya	Urban
+11947.EUR0009	NA	NA	EUR0009	HumanFeces	USA	Homo sapien	adult	UbanHuman	Europeans	himalaya	Urban
+11947.EUR0009.RT	NA	NA	EUR0009	HumanFeces	USA	Homo sapien	adult	UbanHuman	Europeans	himalaya	Urban
+11947.EUR0011	NA	NA	EUR0011	HumanFeces	USA	Homo sapien	adult	UbanHuman	Europeans	himalaya	Urban
+11947.EUR0011.RT	NA	NA	EUR0011	HumanFeces	USA	Homo sapien	adult	UbanHuman	Europeans	himalaya	Urban
+11947.EUR1001	NA	NA	EUR1001	HumanFeces	USA	Homo sapien	adult	UbanHuman	Europeans	himalaya	Urban
+11947.EUR1001.RT	NA	NA	EUR1001	HumanFeces	USA	Homo sapien	adult	UbanHuman	Europeans	himalaya	Urban
+11947.EUR1002.1	NA	NA	EUR1002	HumanFeces	USA	Homo sapien	adult	UbanHuman	Europeans	himalaya	Urban
+11947.EUR1002.2	NA	NA	EUR1002	HumanFeces	USA	Homo sapien	adult	UbanHuman	Europeans	himalaya	Urban
+11947.EUR1002.3	NA	NA	EUR1002	HumanFeces	USA	Homo sapien	adult	UbanHuman	Europeans	himalaya	Urban
+11947.EUR1002.RT	NA	NA	EUR1002	HumanFeces	USA	Homo sapien	adult	UbanHuman	Europeans	himalaya	Urban
+11947.EUR1006	NA	NA	EUR1006	HumanFeces	USA	Homo sapien	adult	UbanHuman	Europeans	himalaya	Urban
+11947.EUR1006.RT	NA	NA	EUR1006	HumanFeces	USA	Homo sapien	adult	UbanHuman	Europeans	himalaya	Urban
+11947.EUR1007	NA	NA	EUR1007	HumanFeces	USA	Homo sapien	adult	UbanHuman	Europeans	himalaya	Urban
+11947.EUR1007.RT	NA	NA	EUR1007	HumanFeces	USA	Homo sapien	adult	UbanHuman	Europeans	himalaya	Urban
+11947.EUR1008	NA	NA	EUR1008	HumanFeces	USA	Homo sapien	adult	UbanHuman	Europeans	himalaya	Urban
+11947.EUR1008.RT	NA	NA	EUR1008	HumanFeces	USA	Homo sapien	adult	UbanHuman	Europeans	himalaya	Urban
+11947.EUR1010	NA	NA	EUR1010	HumanFeces	USA	Homo sapien	adult	UbanHuman	Europeans	himalaya	Urban
+11947.EUR1010.RT	NA	NA	EUR1010	HumanFeces	USA	Homo sapien	adult	UbanHuman	Europeans	himalaya	Urban
+14419.ERR3618858	NA	NA	BEY31	HumanFeces	Yaounde	Homo sapien	adult	UrbanHuman	Urban	cameroon	Urban
+14419.ERR3618866	NA	NA	BEY29	HumanFeces	Yaounde	Homo sapien	adult	UrbanHuman	Urban	cameroon	Urban
+14419.ERR3618870	NA	NA	BEY08	HumanFeces	Yaounde	Homo sapien	adult	UrbanHuman	Urban	cameroon	Urban
+14419.ERR3618875	NA	NA	BEY11	HumanFeces	Yaounde	Homo sapien	adult	UrbanHuman	Urban	cameroon	Urban
+14419.ERR3618891	NA	NA	BEY20	HumanFeces	Yaounde	Homo sapien	adult	UrbanHuman	Urban	cameroon	Urban
+14419.ERR3618894	NA	NA	BEY23	HumanFeces	Yaounde	Homo sapien	adult	UrbanHuman	Urban	cameroon	Urban
+14419.ERR3618898	NA	NA	BEY13	HumanFeces	Yaounde	Homo sapien	adult	UrbanHuman	Urban	cameroon	Urban
+14419.ERR3618902	NA	NA	BEY24	HumanFeces	Yaounde	Homo sapien	adult	UrbanHuman	Urban	cameroon	Urban
+14419.ERR3618916	NA	NA	BEY10	HumanFeces	Yaounde	Homo sapien	adult	UrbanHuman	Urban	cameroon	Urban
+14419.ERR3618921	NA	NA	BEY19	HumanFeces	Yaounde	Homo sapien	adult	UrbanHuman	Urban	cameroon	Urban
+14419.ERR3618934	NA	NA	BEY32	HumanFeces	Yaounde	Homo sapien	adult	UrbanHuman	Urban	cameroon	Urban
+14419.ERR3618938	NA	NA	BEY04	HumanFeces	Yaounde	Homo sapien	adult	UrbanHuman	Urban	cameroon	Urban
+14419.ERR3618954	NA	NA	BEY15	HumanFeces	Yaounde	Homo sapien	adult	UrbanHuman	Urban	cameroon	Urban
+14419.ERR3618972	NA	NA	BEY16	HumanFeces	Yaounde	Homo sapien	adult	UrbanHuman	Urban	cameroon	Urban
+14419.ERR3618856	NA	NA	BEY17	HumanFeces	Yaounde	Homo sapien	adult	UrbanHuman	Urban	cameroon	Urban
+14419.ERR3618857	NA	NA	BEY02	HumanFeces	Yaounde	Homo sapien	adult	UrbanHuman	Urban	cameroon	Urban
+14419.ERR3618872	NA	NA	BEY03	HumanFeces	Yaounde	Homo sapien	adult	UrbanHuman	Urban	cameroon	Urban
+14419.ERR3618873	NA	NA	BEY05	HumanFeces	Yaounde	Homo sapien	adult	UrbanHuman	Urban	cameroon	Urban
+14419.ERR3618892	NA	NA	BEY01	HumanFeces	Yaounde	Homo sapien	adult	UrbanHuman	Urban	cameroon	Urban
+14419.ERR3618897	NA	NA	BEY30	HumanFeces	Yaounde	Homo sapien	adult	UrbanHuman	Urban	cameroon	Urban
+14419.ERR3618904	NA	NA	BEY28	HumanFeces	Yaounde	Homo sapien	adult	UrbanHuman	Urban	cameroon	Urban
+14419.ERR3618908	NA	NA	BEY14	HumanFeces	Yaounde	Homo sapien	adult	UrbanHuman	Urban	cameroon	Urban
+14419.ERR3618922	NA	NA	BEY18	HumanFeces	Yaounde	Homo sapien	adult	UrbanHuman	Urban	cameroon	Urban
+14419.ERR3618923	NA	NA	BEY26	HumanFeces	Yaounde	Homo sapien	adult	UrbanHuman	Urban	cameroon	Urban
+14419.ERR3618926	NA	NA	BEY21	HumanFeces	Yaounde	Homo sapien	adult	UrbanHuman	Urban	cameroon	Urban
+14419.ERR3618927	NA	NA	BEY12	HumanFeces	Yaounde	Homo sapien	adult	UrbanHuman	Urban	cameroon	Urban
+14419.ERR3618928	NA	NA	BEY27	HumanFeces	Yaounde	Homo sapien	adult	UrbanHuman	Urban	cameroon	Urban
+14419.ERR3618933	NA	NA	BEY09	HumanFeces	Yaounde	Homo sapien	adult	UrbanHuman	Urban	cameroon	Urban
+14419.ERR3618940	NA	NA	BEY25	HumanFeces	Yaounde	Homo sapien	adult	UrbanHuman	Urban	cameroon	Urban
+14419.ERR3618942	NA	NA	BEY07	HumanFeces	Yaounde	Homo sapien	adult	UrbanHuman	Urban	cameroon	Urban
+14419.ERR3618945	NA	NA	BEY22	HumanFeces	Yaounde	Homo sapien	adult	UrbanHuman	Urban	cameroon	Urban
+14419.ERR3618948	NA	NA	BEY06	HumanFeces	Yaounde	Homo sapien	adult	UrbanHuman	Urban	cameroon	Urban
+14420.ERR2182702	NA	NA	AP271	HumanFeces	Tibet	Homo sapien	adult	UrbanHuman	Urban	cameroon	Urban
+14420.ERR2182703	NA	NA	AP272	HumanFeces	Tibet	Homo sapien	adult	UrbanHuman	Urban	tibet	Urban
+14420.ERR2182704	NA	NA	AP273	HumanFeces	Tibet	Homo sapien	adult	UrbanHuman	Urban	tibet	Urban
+14420.ERR2182705	NA	NA	AP274	HumanFeces	Tibet	Homo sapien	adult	UrbanHuman	Urban	tibet	Urban
+14420.ERR2182706	NA	NA	AP275	HumanFeces	Tibet	Homo sapien	adult	UrbanHuman	Urban	tibet	Urban
+14420.ERR2182707	NA	NA	AP276	HumanFeces	Tibet	Homo sapien	adult	UrbanHuman	Urban	tibet	Urban
+14420.ERR2182708	NA	NA	AP277	HumanFeces	Tibet	Homo sapien	adult	UrbanHuman	Urban	tibet	Urban
+14420.ERR2182709	NA	NA	AP278	HumanFeces	Tibet	Homo sapien	adult	UrbanHuman	Urban	tibet	Urban
+850.F3T1pre4	NA	NA	F3T1pre4	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.F3T2pre4	NA	NA	F3T2pre4	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.F4T1pre4	NA	NA	F4T1pre4	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.F4T2pre4	NA	NA	F4T2pre4	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.TS1	NA	NA	TS1	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.TS109	NA	NA	TS109	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.TS110	NA	NA	TS110	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.TS111	NA	NA	TS111	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.TS127	NA	NA	TS127	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.TS128	NA	NA	TS128	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.TS129	NA	NA	TS129	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.TS13	NA	NA	TS13	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.TS14	NA	NA	TS14	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.TS15	NA	NA	TS15	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.TS163	NA	NA	TS163	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.TS164	NA	NA	TS164	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.TS165	NA	NA	TS165	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.TS184	NA	NA	TS184	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.TS185	NA	NA	TS185	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.TS186	NA	NA	TS186	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.TS193	NA	NA	TS193	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.TS194	NA	NA	TS194	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.TS195	NA	NA	TS195	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.TS2	NA	NA	TS2	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.TS25	NA	NA	TS25	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.TS26	NA	NA	TS26	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.TS27	NA	NA	TS27	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.TS3	NA	NA	TS3	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.TS4	NA	NA	TS4	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.TS5	NA	NA	TS5	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.TS6	NA	NA	TS6	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.TS7	NA	NA	TS7	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.TS8	NA	NA	TS8	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.TS9	NA	NA	TS9	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.USBldAdlt6	NA	NA	USBldAdlt6	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.USchp18Mom	NA	NA	USchp18Mom	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.USchp1Mom	NA	NA	USchp1Mom	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.USchp25Mom	NA	NA	USchp25Mom	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.USchp33Mom	NA	NA	USchp33Mom	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.USchp35Mom	NA	NA	USchp35Mom	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.USchp36Mom	NA	NA	USchp36Mom	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.USchp3Mom	NA	NA	USchp3Mom	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.USchp41Mom	NA	NA	USchp41Mom	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.USchp4Mom	NA	NA	USchp4Mom	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.USchp60Mom	NA	NA	USchp60Mom	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.USygt1.F	NA	NA	USygt1.F	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.USygt1.M	NA	NA	USygt1.M	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.USygt1.T1	NA	NA	USygt1.T1	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.USygt1.T2	NA	NA	USygt1.T2	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.USygt10.M	NA	NA	USygt10.M	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.USygt10.T1	NA	NA	USygt10.T1	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.USygt10.T2	NA	NA	USygt10.T2	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.USygt11.F	NA	NA	USygt11.F	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.USygt11.M	NA	NA	USygt11.M	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.USygt12.F	NA	NA	USygt12.F	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.USygt12.M	NA	NA	USygt12.M	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.USygt13.F	NA	NA	USygt13.F	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.USygt13.M	NA	NA	USygt13.M	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.USygt13.T1	NA	NA	USygt13.T1	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.USygt13.T2	NA	NA	USygt13.T2	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.USygt14.F	NA	NA	USygt14.F	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.USygt14.M	NA	NA	USygt14.M	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.USygt14.T1	NA	NA	USygt14.T1	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.USygt14.T2	NA	NA	USygt14.T2	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.USygt15.F	NA	NA	USygt15.F	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.USygt15.M	NA	NA	USygt15.M	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.USygt15.T1	NA	NA	USygt15.T1	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.USygt15.T2	NA	NA	USygt15.T2	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.USygt16.F	NA	NA	USygt16.F	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.USygt16.M	NA	NA	USygt16.M	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.USygt17.M	NA	NA	USygt17.M	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.USygt17.T1	NA	NA	USygt17.T1	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.USygt17.T2	NA	NA	USygt17.T2	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.USygt18.M	NA	NA	USygt18.M	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.USygt18.T1	NA	NA	USygt18.T1	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.USygt18.T2	NA	NA	USygt18.T2	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.USygt19.M	NA	NA	USygt19.M	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.USygt19.T1	NA	NA	USygt19.T1	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.USygt19.T2	NA	NA	USygt19.T2	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.USygt2.M	NA	NA	USygt2.M	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.USygt20.F	NA	NA	USygt20.F	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.USygt20.M	NA	NA	USygt20.M	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.USygt20.T1	NA	NA	USygt20.T1	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.USygt20.T2	NA	NA	USygt20.T2	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.USygt21.F	NA	NA	USygt21.F	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.USygt21.M	NA	NA	USygt21.M	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.USygt21.T1	NA	NA	USygt21.T1	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.USygt21.T2	NA	NA	USygt21.T2	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.USygt22.F	NA	NA	USygt22.F	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.USygt22.M	NA	NA	USygt22.M	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.USygt22.T1	NA	NA	USygt22.T1	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.USygt22.T2	NA	NA	USygt22.T2	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.USygt23.F	NA	NA	USygt23.F	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.USygt23.M	NA	NA	USygt23.M	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.USygt23.T1	NA	NA	USygt23.T1	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.USygt23.T2	NA	NA	USygt23.T2	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.USygt24.M	NA	NA	USygt24.M	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.USygt24.T1	NA	NA	USygt24.T1	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.USygt24.T2	NA	NA	USygt24.T2	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.USygt25.F	NA	NA	USygt25.F	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.USygt25.M	NA	NA	USygt25.M	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.USygt25.T1	NA	NA	USygt25.T1	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.USygt25.T2	NA	NA	USygt25.T2	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.USygt26.M	NA	NA	USygt26.M	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.USygt26.T1	NA	NA	USygt26.T1	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.USygt26.T2	NA	NA	USygt26.T2	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.USygt27.F	NA	NA	USygt27.F	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.USygt27.M	NA	NA	USygt27.M	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.USygt28.M	NA	NA	USygt28.M	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.USygt28.T1	NA	NA	USygt28.T1	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.USygt28.T2	NA	NA	USygt28.T2	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.USygt29.M	NA	NA	USygt29.M	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.USygt29.T1	NA	NA	USygt29.T1	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.USygt29.T2	NA	NA	USygt29.T2	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.USygt3.M	NA	NA	USygt3.M	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.USygt3.T1	NA	NA	USygt3.T1	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.USygt3.T2	NA	NA	USygt3.T2	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.USygt30.F	NA	NA	USygt30.F	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.USygt30.M	NA	NA	USygt30.M	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.USygt30.T1	NA	NA	USygt30.T1	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.USygt30.T2	NA	NA	USygt30.T2	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.USygt31.M	NA	NA	USygt31.M	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.USygt31.T1	NA	NA	USygt31.T1	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.USygt31.T2	NA	NA	USygt31.T2	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.USygt32.M	NA	NA	USygt32.M	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.USygt32.T1	NA	NA	USygt32.T1	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.USygt32.T2	NA	NA	USygt32.T2	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.USygt33.M	NA	NA	USygt33.M	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.USygt33.T1	NA	NA	USygt33.T1	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.USygt33.T2	NA	NA	USygt33.T2	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.USygt34.F	NA	NA	USygt34.F	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.USygt34.M	NA	NA	USygt34.M	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.USygt34.T1	NA	NA	USygt34.T1	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.USygt35.M	NA	NA	USygt35.M	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.USygt35.T1	NA	NA	USygt35.T1	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.USygt35.T2	NA	NA	USygt35.T2	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.USygt36.M	NA	NA	USygt36.M	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.USygt37.F	NA	NA	USygt37.F	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.USygt37.M	NA	NA	USygt37.M	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.USygt37.T1	NA	NA	USygt37.T1	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.USygt37.T2	NA	NA	USygt37.T2	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.USygt38.F	NA	NA	USygt38.F	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.USygt38.M	NA	NA	USygt38.M	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.USygt38.T1	NA	NA	USygt38.T1	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.USygt38.T2	NA	NA	USygt38.T2	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.USygt39.F	NA	NA	USygt39.F	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.USygt39.M	NA	NA	USygt39.M	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.USygt39.T1	NA	NA	USygt39.T1	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.USygt39.T2	NA	NA	USygt39.T2	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.USygt4.F	NA	NA	USygt4.F	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.USygt4.M	NA	NA	USygt4.M	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.USygt4.T1	NA	NA	USygt4.T1	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.USygt4.T2	NA	NA	USygt4.T2	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.USygt40.F	NA	NA	USygt40.F	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.USygt40.M	NA	NA	USygt40.M	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.USygt40.T1	NA	NA	USygt40.T1	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.USygt40.T2	NA	NA	USygt40.T2	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.USygt41.F	NA	NA	USygt41.F	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.USygt41.M	NA	NA	USygt41.M	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.USygt41.T1	NA	NA	USygt41.T1	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.USygt41.T2	NA	NA	USygt41.T2	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.USygt42.F	NA	NA	USygt42.F	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.USygt42.M	NA	NA	USygt42.M	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.USygt42.T1	NA	NA	USygt42.T1	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.USygt42.T2	NA	NA	USygt42.T2	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.USygt43.F	NA	NA	USygt43.F	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.USygt43.M	NA	NA	USygt43.M	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.USygt43.T1	NA	NA	USygt43.T1	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.USygt43.T2	NA	NA	USygt43.T2	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.USygt44.F	NA	NA	USygt44.F	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.USygt44.M	NA	NA	USygt44.M	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.USygt44.T1	NA	NA	USygt44.T1	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.USygt44.T2	NA	NA	USygt44.T2	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.USygt45.F	NA	NA	USygt45.F	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.USygt45.M	NA	NA	USygt45.M	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.USygt45.T1	NA	NA	USygt45.T1	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.USygt45.T2	NA	NA	USygt45.T2	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.USygt46.F	NA	NA	USygt46.F	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.USygt46.M	NA	NA	USygt46.M	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.USygt46.T1	NA	NA	USygt46.T1	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.USygt46.T2	NA	NA	USygt46.T2	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.USygt47.F	NA	NA	USygt47.F	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.USygt47.M	NA	NA	USygt47.M	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.USygt47.T1	NA	NA	USygt47.T1	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.USygt47.T2	NA	NA	USygt47.T2	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.USygt48.F	NA	NA	USygt48.F	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.USygt48.M	NA	NA	USygt48.M	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.USygt48.T1	NA	NA	USygt48.T1	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.USygt48.T2	NA	NA	USygt48.T2	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.USygt49.F	NA	NA	USygt49.F	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.USygt49.M	NA	NA	USygt49.M	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.USygt49.T1	NA	NA	USygt49.T1	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.USygt49.T2	NA	NA	USygt49.T2	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.USygt5.F	NA	NA	USygt5.F	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.USygt5.M	NA	NA	USygt5.M	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.USygt5.T1	NA	NA	USygt5.T1	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.USygt5.T2	NA	NA	USygt5.T2	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.USygt50.F	NA	NA	USygt50.F	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.USygt50.M	NA	NA	USygt50.M	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.USygt50.T1	NA	NA	USygt50.T1	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.USygt50.T2	NA	NA	USygt50.T2	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.USygt51.F	NA	NA	USygt51.F	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.USygt51.M	NA	NA	USygt51.M	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.USygt51.T1	NA	NA	USygt51.T1	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.USygt51.T2	NA	NA	USygt51.T2	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.USygt52.F	NA	NA	USygt52.F	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.USygt52.M	NA	NA	USygt52.M	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.USygt52.T1	NA	NA	USygt52.T1	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.USygt52.T2	NA	NA	USygt52.T2	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.USygt53.F	NA	NA	USygt53.F	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.USygt53.M	NA	NA	USygt53.M	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.USygt53.T1	NA	NA	USygt53.T1	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.USygt53.T2	NA	NA	USygt53.T2	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.USygt54.F	NA	NA	USygt54.F	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.USygt54.M	NA	NA	USygt54.M	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.USygt54.T1	NA	NA	USygt54.T1	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.USygt54.T2	NA	NA	USygt54.T2	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.USygt6.M	NA	NA	USygt6.M	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.USygt6.T2	NA	NA	USygt6.T2	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.USygt7.M	NA	NA	USygt7.M	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.USygt8.F	NA	NA	USygt8.F	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.USygt8.M	NA	NA	USygt8.M	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.USygt8.T1	NA	NA	USygt8.T1	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.USygt8.T2	NA	NA	USygt8.T2	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.USygt9.F	NA	NA	USygt9.F	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.USygt9.M	NA	NA	USygt9.M	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.USygt9.T1	NA	NA	USygt9.T1	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+850.USygt9.T2	NA	NA	USygt9.T2	HumanFeces	USA	Homo sapien	adult	UrbanHuman	USA	yatsunenko	Urban
+13332.AF001.CR.KR	NA	NA	AF001	AnoleFeces	Calle Resecadora	krugi	anole	RuralAnole	Calle Resecadora	anole	None
+13332.AF004.CR.KR	NA	NA	AF004	AnoleFeces	Calle Resecadora	krugi	anole	RuralAnole	Calle Resecadora	anole	None
+13332.AF005.CR.KR	NA	NA	AF005	AnoleFeces	Calle Resecadora	krugi	anole	RuralAnole	Calle Resecadora	anole	None
+13332.AF006.CR.KR	NA	NA	AF006	AnoleFeces	Calle Resecadora	krugi	anole	RuralAnole	Calle Resecadora	anole	None
+13332.AF014.ME.KR	NA	NA	AF014	AnoleFeces	Maricao Early	krugi	anole	RuralAnole	Maricao Early	anole	None
+13332.AF034.ME.KR	NA	NA	AF034	AnoleFeces	Maricao Early	krugi	anole	RuralAnole	Maricao Early	anole	None
+13332.AF037.ME.KR	NA	NA	AF037	AnoleFeces	Maricao Early	krugi	anole	RuralAnole	Maricao Early	anole	None
+13332.AF039.ME.KR	NA	NA	AF039	AnoleFeces	Maricao Early	krugi	anole	RuralAnole	Maricao Early	anole	None
+13332.AF018.MR.KR	NA	NA	AF018	AnoleFeces	Maricao Rocks	krugi	anole	RuralAnole	Maricao Rocks	anole	None
+13332.AF025.MR.KR	NA	NA	AF025	AnoleFeces	Maricao Rocks	krugi	anole	RuralAnole	Maricao Rocks	anole	None
+13332.AF029.MR.KR	NA	NA	AF029	AnoleFeces	Maricao Rocks	krugi	anole	RuralAnole	Maricao Rocks	anole	None
+13332.AF035.MR.KR	NA	NA	AF035	AnoleFeces	Maricao Rocks	krugi	anole	RuralAnole	Maricao Rocks	anole	None
+13332.AF049.MR.KR	NA	NA	AF049	AnoleFeces	Maricao Rocks	krugi	anole	RuralAnole	Maricao Rocks	anole	None
+13332.AF052.MR.KR	NA	NA	AF052	AnoleFeces	Maricao Rocks	krugi	anole	RuralAnole	Maricao Rocks	anole	None
+13332.AF056.MR.KR	NA	NA	AF056	AnoleFeces	Maricao Rocks	krugi	anole	RuralAnole	Maricao Rocks	anole	None
+13332.AF060.MR.KR	NA	NA	AF060	AnoleFeces	Maricao Rocks	krugi	anole	RuralAnole	Maricao Rocks	anole	None
+13332.AF063.MR.KR	NA	NA	AF063	AnoleFeces	Maricao Rocks	krugi	anole	RuralAnole	Maricao Rocks	anole	None
+13332.AF070.MR.KR	NA	NA	AF070	AnoleFeces	Maricao Rocks	krugi	anole	RuralAnole	Maricao Rocks	anole	None
+13332.AF066.SB.PO	NA	NA	AF066	AnoleFeces	Sucia Base	poncensis	anole	RuralAnole	Sucia Base	anole	None
+13332.AF068.SB.PO	NA	NA	AF068	AnoleFeces	Sucia Base	poncensis	anole	RuralAnole	Sucia Base	anole	None
+13332.AF072.SB.PO	NA	NA	AF072	AnoleFeces	Sucia Base	poncensis	anole	RuralAnole	Sucia Base	anole	None
+13332.AF073.SB.PO	NA	NA	AF073	AnoleFeces	Sucia Base	poncensis	anole	RuralAnole	Sucia Base	anole	None
+13332.AF091.SC.PO	NA	NA	AF091	AnoleFeces	Sucia Camp	poncensis	anole	RuralAnole	Sucia Camp	anole	None
+13332.AF095.SC.PO	NA	NA	AF095	AnoleFeces	Sucia Camp	poncensis	anole	RuralAnole	Sucia Camp	anole	None
+13332.AF098.SC.PO	NA	NA	AF098	AnoleFeces	Sucia Camp	poncensis	anole	RuralAnole	Sucia Camp	anole	None
+13332.AF099.SC.PO	NA	NA	AF099	AnoleFeces	Sucia Camp	poncensis	anole	RuralAnole	Sucia Camp	anole	None
+13332.AF089.SL.PO	NA	NA	AF089	AnoleFeces	Sucia Parking Lot	poncensis	anole	RuralAnole	Sucia Parking Lot	anole	None
+13332.AF096.SP.PO	NA	NA	AF096	AnoleFeces	Sucia Peligro	poncensis	anole	RuralAnole	Sucia Peligro	anole	None
+13332.AF065.MF.PU	NA	NA	AF065	AnoleFeces	Maricao Fences	pulchellus	anole	RuralAnole	Maricao Fences	anole	None
+13332.AF100.MF.PU	NA	NA	AF100	AnoleFeces	Maricao Fences	pulchellus	anole	RuralAnole	Maricao Fences	anole	None
+13332.AF101.MF.PU	NA	NA	AF101	AnoleFeces	Maricao Fences	pulchellus	anole	RuralAnole	Maricao Fences	anole	None
+13332.AF102.MF.PU	NA	NA	AF102	AnoleFeces	Maricao Fences	pulchellus	anole	RuralAnole	Maricao Fences	anole	None
+13332.AF103.MF.PU	NA	NA	AF103	AnoleFeces	Maricao Fences	pulchellus	anole	RuralAnole	Maricao Fences	anole	None
+13332.AF050.MC.ST	NA	NA	AF050	AnoleFeces	Maricao Camp	stratulus	anole	RuralAnole	Maricao Camp	anole	None
+13332.AF053.ME.ST	NA	NA	AF053	AnoleFeces	Maricao Early	stratulus	anole	RuralAnole	Maricao Early	anole	None
+13332.AF009.MR.ST	NA	NA	AF009	AnoleFeces	Maricao Rocks	stratulus	anole	RuralAnole	Maricao Rocks	anole	None
+13332.AF015.MR.ST	NA	NA	AF015	AnoleFeces	Maricao Rocks	stratulus	anole	RuralAnole	Maricao Rocks	anole	None
+13332.AF019.MR.ST	NA	NA	AF019	AnoleFeces	Maricao Rocks	stratulus	anole	RuralAnole	Maricao Rocks	anole	None
+13332.AF022.MR.ST	NA	NA	AF022	AnoleFeces	Maricao Rocks	stratulus	anole	RuralAnole	Maricao Rocks	anole	None
+13332.AF030.MR.ST	NA	NA	AF030	AnoleFeces	Maricao Rocks	stratulus	anole	RuralAnole	Maricao Rocks	anole	None
+13332.AF031.MR.ST	NA	NA	AF031	AnoleFeces	Maricao Rocks	stratulus	anole	RuralAnole	Maricao Rocks	anole	None
+13332.AF032.MR.ST	NA	NA	AF032	AnoleFeces	Maricao Rocks	stratulus	anole	RuralAnole	Maricao Rocks	anole	None
+13332.AF036.MR.ST	NA	NA	AF036	AnoleFeces	Maricao Rocks	stratulus	anole	RuralAnole	Maricao Rocks	anole	None
+13332.AF038.MR.ST	NA	NA	AF038	AnoleFeces	Maricao Rocks	stratulus	anole	RuralAnole	Maricao Rocks	anole	None
+13332.AF041.MR.ST	NA	NA	AF041	AnoleFeces	Maricao Rocks	stratulus	anole	RuralAnole	Maricao Rocks	anole	None
+13332.AF043.MR.ST	NA	NA	AF043	AnoleFeces	Maricao Rocks	stratulus	anole	RuralAnole	Maricao Rocks	anole	None
+13332.AF057.MR.ST	NA	NA	AF057	AnoleFeces	Maricao Rocks	stratulus	anole	RuralAnole	Maricao Rocks	anole	None
+13332.AF059.MR.ST	NA	NA	AF059	AnoleFeces	Maricao Rocks	stratulus	anole	RuralAnole	Maricao Rocks	anole	None
+13332.AF069.MR.ST	NA	NA	AF069	AnoleFeces	Maricao Rocks	stratulus	anole	RuralAnole	Maricao Rocks	anole	None
+14425.SRR11825482	NA	NA	277110660	SparrowFeces	Limantour	Zonotrichia leucophrys	sparrow	RuralSparrow	Rural	sparrow	Rural
+14425.SRR11825483	NA	NA	277110658	SparrowFeces	Limantour	Zonotrichia leucophrys	sparrow	RuralSparrow	Rural	sparrow	Rural
+14425.SRR11825484	NA	NA	277110657	SparrowFeces	Limantour	Zonotrichia leucophrys	sparrow	RuralSparrow	Rural	sparrow	Rural
+14425.SRR11825487	NA	NA	277110649	SparrowFeces	Abbotts	Zonotrichia leucophrys	sparrow	RuralSparrow	Rural	sparrow	Rural
+14425.SRR11825488	NA	NA	277110643	SparrowFeces	Abbotts	Zonotrichia leucophrys	sparrow	RuralSparrow	Rural	sparrow	Rural
+14425.SRR11825489	NA	NA	277110638	SparrowFeces	Abbotts	Zonotrichia leucophrys	sparrow	RuralSparrow	Rural	sparrow	Rural
+14425.SRR11825490	NA	NA	277110633	SparrowFeces	Abbotts	Zonotrichia leucophrys	sparrow	RuralSparrow	Rural	sparrow	Rural
+14425.SRR11825491	NA	NA	277110632	SparrowFeces	Abbotts	Zonotrichia leucophrys	sparrow	RuralSparrow	Rural	sparrow	Rural
+14425.SRR11825492	NA	NA	277110631	SparrowFeces	Abbotts	Zonotrichia leucophrys	sparrow	RuralSparrow	Rural	sparrow	Rural
+14425.SRR11825493	NA	NA	277110627	SparrowFeces	Commonweal	Zonotrichia leucophrys	sparrow	RuralSparrow	Rural	sparrow	Rural
+14425.SRR11825494	NA	NA	277110626	SparrowFeces	Commonweal	Zonotrichia leucophrys	sparrow	RuralSparrow	Rural	sparrow	Rural
+14425.SRR11825495	NA	NA	277110625	SparrowFeces	Commonweal	Zonotrichia leucophrys	sparrow	RuralSparrow	Rural	sparrow	Rural
+14425.SRR11825497	NA	NA	277110621	SparrowFeces	Commonweal	Zonotrichia leucophrys	sparrow	RuralSparrow	Rural	sparrow	Rural
+14425.SRR11825498	NA	NA	277110620	SparrowFeces	Commonweal	Zonotrichia leucophrys	sparrow	RuralSparrow	Rural	sparrow	Rural
+14425.SRR11825499	NA	NA	277110619	SparrowFeces	Limantour	Zonotrichia leucophrys	sparrow	RuralSparrow	Rural	sparrow	Rural
+14425.SRR11825500	NA	NA	277110618	SparrowFeces	Limantour	Zonotrichia leucophrys	sparrow	RuralSparrow	Rural	sparrow	Rural
+14425.SRR11825502	NA	NA	277110615	SparrowFeces	Limantour	Zonotrichia leucophrys	sparrow	RuralSparrow	Rural	sparrow	Rural
+14425.SRR11825503	NA	NA	277110614	SparrowFeces	Limantour	Zonotrichia leucophrys	sparrow	RuralSparrow	Rural	sparrow	Rural
+14425.SRR11825505	NA	NA	277110612	SparrowFeces	Limantour	Zonotrichia leucophrys	sparrow	RuralSparrow	Rural	sparrow	Rural
+14425.SRR11825506	NA	NA	277110607	SparrowFeces	Commonweal	Zonotrichia leucophrys	sparrow	RuralSparrow	Rural	sparrow	Rural
+14425.SRR11825508	NA	NA	277110606	SparrowFeces	Commonweal	Zonotrichia leucophrys	sparrow	RuralSparrow	Rural	sparrow	Rural
+14425.SRR11825509	NA	NA	266127822	SparrowFeces	Abbotts	Zonotrichia leucophrys	sparrow	RuralSparrow	Rural	sparrow	Rural
+14425.SRR11825511	NA	NA	266127813	SparrowFeces	Abbotts	Zonotrichia leucophrys	sparrow	RuralSparrow	Rural	sparrow	Rural
+14425.SRR11825513	NA	NA	257195929	SparrowFeces	Commonweal	Zonotrichia leucophrys	sparrow	RuralSparrow	Rural	sparrow	Rural
+14425.SRR11825514	NA	NA	144100600	SparrowFeces	Commonweal	Zonotrichia leucophrys	sparrow	RuralSparrow	Rural	sparrow	Rural
+14425.SRR11825515	NA	NA	144100592	SparrowFeces	Commonweal	Zonotrichia leucophrys	sparrow	RuralSparrow	Rural	sparrow	Rural
+14425.SRR11825541	NA	NA	144100426	SparrowFeces	Abbotts	Zonotrichia leucophrys	sparrow	RuralSparrow	Rural	sparrow	Rural
+14425.SRR11825542	NA	NA	144100425	SparrowFeces	Abbotts	Zonotrichia leucophrys	sparrow	RuralSparrow	Rural	sparrow	Rural
+14425.SRR11825485	NA	NA	144100512	SparrowFeces	Presidio	Zonotrichia leucophrys	sparrow	UrbanSparrow	Urban	sparrow	Urban
+14425.SRR11825496	NA	NA	144100511	SparrowFeces	Presidio	Zonotrichia leucophrys	sparrow	UrbanSparrow	Urban	sparrow	Urban
+14425.SRR11825507	NA	NA	144100509	SparrowFeces	Presidio	Zonotrichia leucophrys	sparrow	UrbanSparrow	Urban	sparrow	Urban
+14425.SRR11825512	NA	NA	257195957	SparrowFeces	Presidio	Zonotrichia leucophrys	sparrow	UrbanSparrow	Urban	sparrow	Urban
+14425.SRR11825516	NA	NA	144100591	SparrowFeces	Richmond	Zonotrichia leucophrys	sparrow	UrbanSparrow	Urban	sparrow	Urban
+14425.SRR11825517	NA	NA	144100589	SparrowFeces	Richmond	Zonotrichia leucophrys	sparrow	UrbanSparrow	Urban	sparrow	Urban
+14425.SRR11825518	NA	NA	144100508	SparrowFeces	Presidio	Zonotrichia leucophrys	sparrow	UrbanSparrow	Urban	sparrow	Urban
+14425.SRR11825519	NA	NA	144100588	SparrowFeces	Richmond	Zonotrichia leucophrys	sparrow	UrbanSparrow	Urban	sparrow	Urban
+14425.SRR11825520	NA	NA	144100587	SparrowFeces	Richmond	Zonotrichia leucophrys	sparrow	UrbanSparrow	Urban	sparrow	Urban
+14425.SRR11825522	NA	NA	144100583	SparrowFeces	Funston	Zonotrichia leucophrys	sparrow	UrbanSparrow	Urban	sparrow	Urban
+14425.SRR11825523	NA	NA	144100582	SparrowFeces	Funston	Zonotrichia leucophrys	sparrow	UrbanSparrow	Urban	sparrow	Urban
+14425.SRR11825524	NA	NA	144100580	SparrowFeces	Funston	Zonotrichia leucophrys	sparrow	UrbanSparrow	Urban	sparrow	Urban
+14425.SRR11825525	NA	NA	144100579	SparrowFeces	Funston	Zonotrichia leucophrys	sparrow	UrbanSparrow	Urban	sparrow	Urban
+14425.SRR11825526	NA	NA	144100578	SparrowFeces	Funston	Zonotrichia leucophrys	sparrow	UrbanSparrow	Urban	sparrow	Urban
+14425.SRR11825527	NA	NA	144100576	SparrowFeces	Funston	Zonotrichia leucophrys	sparrow	UrbanSparrow	Urban	sparrow	Urban
+14425.SRR11825528	NA	NA	144100575	SparrowFeces	Richmond	Zonotrichia leucophrys	sparrow	UrbanSparrow	Urban	sparrow	Urban
+14425.SRR11825529	NA	NA	144100507	SparrowFeces	Presidio	Zonotrichia leucophrys	sparrow	UrbanSparrow	Urban	sparrow	Urban
+14425.SRR11825530	NA	NA	144100573	SparrowFeces	Richmond	Zonotrichia leucophrys	sparrow	UrbanSparrow	Urban	sparrow	Urban
+14425.SRR11825532	NA	NA	144100571	SparrowFeces	Richmond	Zonotrichia leucophrys	sparrow	UrbanSparrow	Urban	sparrow	Urban
+14425.SRR11825533	NA	NA	144100570	SparrowFeces	Richmond	Zonotrichia leucophrys	sparrow	UrbanSparrow	Urban	sparrow	Urban
+14425.SRR11825534	NA	NA	144100569	SparrowFeces	Richmond	Zonotrichia leucophrys	sparrow	UrbanSparrow	Urban	sparrow	Urban
+14425.SRR11825535	NA	NA	144100568	SparrowFeces	Richmond	Zonotrichia leucophrys	sparrow	UrbanSparrow	Urban	sparrow	Urban
+14425.SRR11825536	NA	NA	144100566	SparrowFeces	Richmond	Zonotrichia leucophrys	sparrow	UrbanSparrow	Urban	sparrow	Urban
+14425.SRR11825537	NA	NA	144100562	SparrowFeces	Presidio	Zonotrichia leucophrys	sparrow	UrbanSparrow	Urban	sparrow	Urban
+14425.SRR11825538	NA	NA	144100561	SparrowFeces	Presidio	Zonotrichia leucophrys	sparrow	UrbanSparrow	Urban	sparrow	Urban
+14425.SRR11825539	NA	NA	144100515	SparrowFeces	Presidio	Zonotrichia leucophrys	sparrow	UrbanSparrow	Urban	sparrow	Urban
+14425.SRR11825540	NA	NA	144100513	SparrowFeces	Presidio	Zonotrichia leucophrys	sparrow	UrbanSparrow	Urban	sparrow	Urban
+14425.SRR11825543	NA	NA	144100560	SparrowFeces	Presidio	Zonotrichia leucophrys	sparrow	UrbanSparrow	Urban	sparrow	Urban
+14425.SRR11825544	NA	NA	144100504	SparrowFeces	Presidio	Zonotrichia leucophrys	sparrow	UrbanSparrow	Urban	sparrow	Urban
+14425.SRR11825545	NA	NA	144100559	SparrowFeces	Presidio	Zonotrichia leucophrys	sparrow	UrbanSparrow	Urban	sparrow	Urban
+14425.SRR11825546	NA	NA	144100556	SparrowFeces	Presidio	Zonotrichia leucophrys	sparrow	UrbanSparrow	Urban	sparrow	Urban
+14425.SRR11825547	NA	NA	144100555	SparrowFeces	Presidio	Zonotrichia leucophrys	sparrow	UrbanSparrow	Urban	sparrow	Urban
+14425.SRR11825548	NA	NA	144100554	SparrowFeces	Presidio	Zonotrichia leucophrys	sparrow	UrbanSparrow	Urban	sparrow	Urban
+14425.SRR11825549	NA	NA	144100553	SparrowFeces	Presidio	Zonotrichia leucophrys	sparrow	UrbanSparrow	Urban	sparrow	Urban
+14425.SRR11825550	NA	NA	144100552	SparrowFeces	Presidio	Zonotrichia leucophrys	sparrow	UrbanSparrow	Urban	sparrow	Urban
+14425.SRR11825551	NA	NA	144100551	SparrowFeces	Presidio	Zonotrichia leucophrys	sparrow	UrbanSparrow	Urban	sparrow	Urban
+14425.SRR11825552	NA	NA	144100550	SparrowFeces	Presidio	Zonotrichia leucophrys	sparrow	UrbanSparrow	Urban	sparrow	Urban
+14425.SRR11825553	NA	NA	144100547	SparrowFeces	Funston	Zonotrichia leucophrys	sparrow	UrbanSparrow	Urban	sparrow	Urban
+14425.SRR11825554	NA	NA	144100545	SparrowFeces	Funston	Zonotrichia leucophrys	sparrow	UrbanSparrow	Urban	sparrow	Urban
+14425.SRR11825555	NA	NA	144100503	SparrowFeces	Presidio	Zonotrichia leucophrys	sparrow	UrbanSparrow	Urban	sparrow	Urban
+14425.SRR11825556	NA	NA	144100544	SparrowFeces	Funston	Zonotrichia leucophrys	sparrow	UrbanSparrow	Urban	sparrow	Urban
+14425.SRR11825557	NA	NA	144100542	SparrowFeces	Funston	Zonotrichia leucophrys	sparrow	UrbanSparrow	Urban	sparrow	Urban
+14425.SRR11825558	NA	NA	144100539	SparrowFeces	Funston	Zonotrichia leucophrys	sparrow	UrbanSparrow	Urban	sparrow	Urban
+14425.SRR11825559	NA	NA	144100537	SparrowFeces	Funston	Zonotrichia leucophrys	sparrow	UrbanSparrow	Urban	sparrow	Urban
+14425.SRR11825561	NA	NA	144100532	SparrowFeces	Funston	Zonotrichia leucophrys	sparrow	UrbanSparrow	Urban	sparrow	Urban
+14425.SRR11825562	NA	NA	144100531	SparrowFeces	Presidio	Zonotrichia leucophrys	sparrow	UrbanSparrow	Urban	sparrow	Urban
+14425.SRR11825563	NA	NA	144100530	SparrowFeces	Presidio	Zonotrichia leucophrys	sparrow	UrbanSparrow	Urban	sparrow	Urban
+14425.SRR11825564	NA	NA	144100529	SparrowFeces	Presidio	Zonotrichia leucophrys	sparrow	UrbanSparrow	Urban	sparrow	Urban
+14425.SRR11825565	NA	NA	144100528	SparrowFeces	Presidio	Zonotrichia leucophrys	sparrow	UrbanSparrow	Urban	sparrow	Urban
+14425.SRR11825566	NA	NA	144100431	SparrowFeces	Presidio	Zonotrichia leucophrys	sparrow	UrbanSparrow	Urban	sparrow	Urban
+14425.SRR11825567	NA	NA	144100527	SparrowFeces	Presidio	Zonotrichia leucophrys	sparrow	UrbanSparrow	Urban	sparrow	Urban
+14425.SRR11825568	NA	NA	144100526	SparrowFeces	Presidio	Zonotrichia leucophrys	sparrow	UrbanSparrow	Urban	sparrow	Urban
+14425.SRR11825569	NA	NA	144100525	SparrowFeces	Presidio	Zonotrichia leucophrys	sparrow	UrbanSparrow	Urban	sparrow	Urban
+14425.SRR11825570	NA	NA	144100524	SparrowFeces	Funston	Zonotrichia leucophrys	sparrow	UrbanSparrow	Urban	sparrow	Urban
+14425.SRR11825571	NA	NA	144100521	SparrowFeces	Funston	Zonotrichia leucophrys	sparrow	UrbanSparrow	Urban	sparrow	Urban
+14425.SRR11825572	NA	NA	144100519	SparrowFeces	Presidio	Zonotrichia leucophrys	sparrow	UrbanSparrow	Urban	sparrow	Urban
+14425.SRR11825573	NA	NA	144100518	SparrowFeces	Presidio	Zonotrichia leucophrys	sparrow	UrbanSparrow	Urban	sparrow	Urban
+14425.SRR11825574	NA	NA	144100516	SparrowFeces	Presidio	Zonotrichia leucophrys	sparrow	UrbanSparrow	Urban	sparrow	Urban

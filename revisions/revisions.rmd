@@ -1,0 +1,354 @@
+---
+title: "Untitled"
+output: github_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+``` {r, echo = T, eval = T}
+
+#load packages
+
+library(dada2)
+library(phyloseq)
+library(Biostrings)
+library(ggplot2)
+library(dbplyr)
+library(tidyverse)
+library(qiime2R)
+library(plyr)
+library(ANCOMBC)
+library(microbiome)
+library(rmeta)
+library(readr)
+library(vegan)
+library(biomformat)
+library(nlme)
+library(compositions)
+source("scripts/ancom_v2.1.R")
+
+setwd("/workdir/bd429/R/Anole_paper")
+```
+
+## Make functions to convert Phyloseq objects into vegan objects
+
+``` {r, echo = T, eval = T}
+# convert the sample_data() within a phyloseq object into a vegan compatible data object
+pssd2veg <- function(physeq) {
+  sd <- sample_data(physeq)
+  return(as(sd,"data.frame"))
+}
+
+#convert the asv table (otu_table) within a phyloseq object into a vegan compatible data object
+psotu2veg <- function(physeq) {
+  OTU <- otu_table(physeq)
+  if (taxa_are_rows(OTU)) {
+    OTU <- t(OTU)
+  }
+  return(as(OTU, "matrix"))
+}
+
+
+options(max.print = 5000)
+```
+
+
+## qiime 2 R import and conversion into phyloseq object
+``` {r, echo = T, eval = T}
+
+#import qiime2 data into a phyloseq object
+allps<-qza_to_phyloseq(features="qiime2/filter_merged_feature-table.qza", taxonomy = "qiime2/mergedtaxonomy.qza", metadata="qiime2/qiime2_meta_filtered1.txt")
+
+# convert sequences to ASV names and create new field to keep the reference sequences
+dna <- Biostrings::DNAStringSet(taxa_names(allps))
+names(dna) <- taxa_names(allps)
+allps <- merge_phyloseq(allps, dna)
+taxa_names(allps) <- paste0("ASV", seq(ntaxa(allps)))
+
+
+allps <- prune_samples(sample_sums(allps)>=10000, allps)
+allps <- subset_samples(allps, original_ID !="AF107" & original_ID !="AF008" & original_ID !="AF086" & original_ID !="53F")
+
+
+
+```
+
+
+
+## split all datasets into own subsets and filter like children and non cristatellus
+``` {r, echo = T, eval = T}
+
+psA <- subset_samples(allps, env_feature == "AnoleFeces") %>% subset_samples(description == "Mayaguez Forest" | description == "Mayaguez Urban" | description =="Maricao Rocks" | description =="AirBnB") %>% subset_samples(scientific_name != "gundlachi")
+
+
+psC <- subset_samples(allps, study == "coyote") 
+
+
+psY <- subset_samples(allps, study == "yatsunenko") %>% subset_samples(life_stage != "child")
+
+psH <- subset_samples(allps, study == "himalaya")
+
+psT <- subset_samples(allps, study == "tibet")
+
+psM <- subset_samples(allps, study == "cameroon")
+
+psS <- subset_samples(allps, study == "sparrow")
+
+psanimals.prune <- merge_phyloseq(psC, psA, psS)
+animals.ancom <- subset_samples(psanimals.prune, ANCOM_random != "None" & scientific_name != "Homo sapien")
+
+
+psall.prune <- merge_phyloseq(psA, psC, psY, psH, psT, psM, psS)
+psall.prune.rare = rarefy_even_depth(psall.prune, rngseed=1, sample.size=10000, replace=F)
+
+#psall.rare.distance.bray <- phyloseq::distance(psall.prune.rare, method = "bray", binary = FALSE)
+#psall.NMDS.dice <- ordinate(psall.prune.rare, "NMDS", distance= psall.rare.distance.bray)
+#plot_ordination(psall.prune.rare, psall.NMDS.dice, color="LifestyleSpecies", title = "nmds")
+#ggsave("figures/revisions/pruned_Bray_NMDS.pdf", device = "pdf", width = 13, height = 11)
+
+
+ancom_refseq <- as.data.frame(refseq(allps)) %>% rownames_to_column(var = "taxa_id") %>% mutate(sequence = x) %>% select(taxa_id, sequence)
+Bact_table <- as.data.frame(tax_table(allps)) %>% rownames_to_column(var = "taxa_id")
+Bact_table <- left_join(Bact_table, ancom_refseq)
+```
+
+
+
+``` {r, echo = T, eval = T}
+
+# add unrarefied physloseq object
+ANCOMps <- psA
+
+# First need to transform the data into ancom form. Use as.data.frame. ANCOM wants the otu_data to have rownames and then it wants the rownames of the metadata converted to a column named sample.ID. If we want the rowname to column command to work you must first make the meta_data class a data.frame
+otu_data = as.data.frame(otu_table(ANCOMps))
+meta_data = as.data.frame(sample_data(ANCOMps))
+class(meta_data) <- "data.frame"
+meta_data = rownames_to_column(meta_data, var = "Sample.ID")
+otu_data = otu_data[rowSums(otu_data[])>0,]
+otu_id = rownames(otu_data)
+
+
+# Step 1: Data preprocessing
+
+feature_table = otu_data; sample_var = "Sample.ID"; group_var = NULL
+out_cut = 0.05; zero_cut = 0.90; lib_cut = 1000; neg_lb = FALSE
+prepro = feature_table_pre_process(feature_table, meta_data, sample_var, group_var, 
+                                   out_cut, zero_cut, lib_cut, neg_lb)
+feature_table = prepro$feature_table # Preprocessed feature table
+meta_data = prepro$meta_data # Preprocessed metadata
+struc_zero = prepro$structure_zeros # Structural zero info
+
+# Step 2: ANCOM
+
+main_var = "ANCOM_random"; p_adj_method = "BH"; alpha = 0.05
+adj_formula = NULL; rand_formula = NULL ; lme_control = NULL
+res = ANCOM(feature_table, meta_data, struc_zero, main_var, p_adj_method, 
+            alpha, adj_formula, rand_formula, lme_control)
+
+
+
+# Step 3: Volcano Plot
+
+# Number of taxa except structural zeros
+n_taxa = ifelse(is.null(struc_zero), nrow(feature_table), sum(apply(struc_zero, 1, sum) == 0))
+# Cutoff values for declaring differentially abundant taxa
+cut_off = c(0.9 * (n_taxa -1), 0.8 * (n_taxa -1), 0.7 * (n_taxa -1), 0.6 * (n_taxa -1), 0.5 * (n_taxa -1))
+names(cut_off) = c("detected_0.9", "detected_0.8", "detected_0.7", "detected_0.6", "detected_0.5")
+
+# Annotation data + figure
+dat_ann = data.frame(x = min(res$fig$data$x), y = cut_off["detected_0.7"], label = "W[0.7]")
+
+ANCOMfig = res$fig +  
+  geom_hline(yintercept = cut_off["detected_0.7"], linetype = "dashed") + 
+  geom_text(data = dat_ann, aes(x = x, y = y, label = label), 
+            size = 4, vjust = -0.5, hjust = 0, color = "orange", parse = TRUE)
+ANCOMfig
+
+
+significant_5 <- res$fig$data %>% mutate(detected_0.5 = ifelse(y >= cut_off[5], "TRUE", "FALSE")) %>% mutate(detected_0.7 = ifelse(y >= cut_off[3], "TRUE", "FALSE")) %>% mutate(W = y) %>% filter(detected_0.5 == TRUE)
+rownames(significant_5) <- NULL
+significant_5
+
+ancom_table <- merge(x = significant_5, y = Bact_table, by = "taxa_id") %>% as.data.frame() %>% mutate(clr_mean_diff = x) %>% mutate(description = ifelse(clr_mean_diff > 0, "Urban", "Rural")) %>% mutate(study = "Animals") %>% select(taxa_id, W, clr_mean_diff, detected_0.5, detected_0.7, description, Kingdom, Phylum, Order, Family, Genus, study, sequence)
+
+#Anole_ancom_fig <- ANCOMfig
+#AnoleRes <- res
+#anole_ancom <- ancom_table
+
+
+sparrowRes
+sparrow_ancom_fig
+sparrow_ancom
+
+tibet_tradurbanRes
+tibet_tradurban_ancom_fig
+tibet_tradurban_ancom
+
+tibet_semiurbanRes
+tibet_semiurban_ancom_fig
+tibet_semiurban_ancom
+
+cameroon_ruralRes
+cameroon_rural_ancom_fig
+cameroon_rural_ancom
+
+cameroon_semiurbanRes
+cameroon_semiurban_ancom_fig
+cameroon_semi_ancom
+
+AnoleRes
+Anole_ancom_fig
+anole_ancom
+
+venezuelaRes
+venezuela_ancom_fig
+venezuela_ancom
+
+malawiRes
+malawi_ancom_fig
+malawi_ancom
+
+coyoteRes
+coyote_ancom_fig
+coyote_ancom
+
+
+ANCOM_allresults <- rbind(sparrow_ancom, tibet_tradurban_ancom, tibet_semiurban_ancom, cameroon_rural_ancom, cameroon_semi_ancom, anole_ancom, venezuela_ancom, malawi_ancom, coyote_ancom)
+
+write_csv(allanimal_ancom, file = "allanimal_ancom.csv")
+
+```
+
+## ANCOM of all animals with covariable. Needs less restrictive memory requirements, this code was run on the command line with the commands "ulimit -s 65535" and "R --max-ppsize=500000".
+```{r}
+
+ANCOMps <- animals.ancom
+
+
+#save R data so that it can be called through the command line
+save(ANCOMps, file = "animals_ANCOM.R")
+# First need to transform the data into ancom form. Pretty easy just use as.data.frame. ANCOM wants the otu_data to have rownames and then it wants the rownames of the metadata converted to a column named sample.ID. If we want the rowname to column command to work you must first make the meta_data class a data.frame
+
+#Starting here ran on command line with less restrictive memory limits
+load("animals_ANCOM.R")
+otu_data = as.data.frame(otu_table(ANCOMps))
+meta_data = as.data.frame(sample_data(ANCOMps))
+class(meta_data) <- "data.frame"
+meta_data = rownames_to_column(meta_data, var = "Sample.ID")
+otu_data = otu_data[rowSums(otu_data[])>0,]
+otu_id = rownames(otu_data)
+
+
+# Step 1: Data preprocessing
+
+feature_table = otu_data; sample_var = "Sample.ID"; group_var = NULL
+out_cut = 0.05; zero_cut = 0.90; lib_cut = 1000; neg_lb = FALSE
+prepro = feature_table_pre_process(feature_table, meta_data, sample_var, group_var, 
+                                   out_cut, zero_cut, lib_cut, neg_lb)
+feature_table = prepro$feature_table # Preprocessed feature table
+meta_data = prepro$meta_data # Preprocessed metadata
+struc_zero = prepro$structure_zeros # Structural zero info
+
+# Step 2: ANCOM
+#ANCOM_random is the Urban or Rural designation for a sample in the metadata, it is not random.
+main_var = "ANCOM_random"; p_adj_method = "BH"; alpha = 0.05
+adj_formula = NULL; rand_formula = "~1|scientific_name" ; lme_control = list(maxIter = 100, msMaxIter = 100, opt = "optim")
+res2 = ANCOM(feature_table, meta_data, struc_zero, main_var, p_adj_method, 
+            alpha, adj_formula, rand_formula, control = lme_control)
+
+
+# Step 3: Volcano Plot
+
+# Number of taxa except structural zeros
+n_taxa = ifelse(is.null(struc_zero), nrow(feature_table), sum(apply(struc_zero, 1, sum) == 0))
+# Cutoff values for declaring differentially abundant taxa
+cut_off = c(0.9 * (n_taxa -1), 0.8 * (n_taxa -1), 0.7 * (n_taxa -1), 0.6 * (n_taxa -1), 0.5 * (n_taxa -1))
+names(cut_off) = c("detected_0.9", "detected_0.8", "detected_0.7", "detected_0.6", "detected_0.5")
+
+# Annotation data + figure
+dat_ann = data.frame(x = min(res2$fig$data$x), y = cut_off["detected_0.7"], label = "W[0.7]")
+
+ANCOMfig = res2$fig +  
+  geom_hline(yintercept = cut_off["detected_0.7"], linetype = "dashed") + 
+  geom_text(data = dat_ann, aes(x = x, y = y, label = label), 
+            size = 4, vjust = -0.5, hjust = 0, color = "orange", parse = TRUE)
+ANCOMfig
+
+
+#Make the supp table 
+significant_5 <- res2$fig$data %>% mutate(detected_0.5 = ifelse(y >= cut_off[5], "TRUE", "FALSE")) %>% mutate(detected_0.7 = ifelse(y >= cut_off[3], "TRUE", "FALSE")) %>% mutate(W = y) %>% filter(detected_0.5 == TRUE)
+rownames(significant_5) <- NULL
+
+
+allanimal_ancom <- merge(x = significant_5, y = Bact_table, by = "taxa_id") %>% as.data.frame() %>% mutate(clr_mean_diff = x) %>% mutate(description = ifelse(clr_mean_diff > 0, "Urban", "Rural")) %>% mutate(study = "Animals") %>% select(taxa_id, W, clr_mean_diff, detected_0.5, detected_0.7, description, Kingdom, Phylum, Order, Family, Genus, study, sequence)
+
+
+load("ancom_res.R")
+load("ancom_fig.R")
+
+
+
+#comboy <- otu_table(animals.ancom) %>% as.data.frame() %>% rownames_to_column(var = "taxa_id") %>% filter(taxa_id == "ASV17782") %>% as.data.frame() %>% pivot_longer(!taxa_id, names_to = "id", values_to = "count")
+
+#combo <- as(phyloseq::sample_data(animals.ancom), "data.frame") %>% rownames_to_column(var = "id") %>% select(id, study, ANCOM_random) %>% left_join(., comboy)
+
+#write_csv(combo, file = "combopos.csv")
+```
+
+
+
+## presence absence of ASVs + random subsampling for the studies that need it.
+```{r}
+
+
+#Randomly create lists of samples 
+sampling <- sample_data(psall.prune.present) %>% `class<-`("data.frame") %>% rownames_to_column(var = "sample") %>% filter(LifestyleSpecies == "UrbanSparrow") %>% select(original_ID) %>% as.matrix() %>% sample(23)
+
+subsample_data <- subset_samples(psall.prune.present, original_ID %in% sampling | LifestyleSpecies == "RuralSparrow" | LifestyleSpecies == "RuralHuman" | LifestyleSpecies == "UrbanHuman")
+
+
+
+otuframe <- t(otu_table(subsample_data)) %>% as.data.frame() %>% rownames_to_column(var = "sample")
+sample_meta_frame <- as.data.frame(sample_data(subsample_data)) %>% `class<-`("data.frame") %>% rownames_to_column(var = "sample") %>% select(sample, original_ID, LifestyleSpecies, study)
+#below command is to homogenize the names of the various groups
+sample_meta_frame$LifestyleSpecies[sample_meta_frame$LifestyleSpecies == "RuralHuman" | sample_meta_frame$LifestyleSpecies == "UrbanHuman"] <- "Human"
+
+merge_meta_otu <- merge(x = otuframe, y = sample_meta_frame, by = "sample", all.x = TRUE)
+merge_meta_otu <- merge_meta_otu %>% select(LifestyleSpecies, rownames(otu_table(subsample_data)))
+
+aggregate_OTUsums <- aggregate(. ~ LifestyleSpecies, data=merge_meta_otu, FUN=sum)
+aggregate_OTUsums <- pivot_longer(aggregate_OTUsums, rownames(otu_table(subsample_data)), names_to = "ASV", values_to = "abundance")
+
+
+present1 <- aggregate_OTUsums %>% filter(abundance != 0 & LifestyleSpecies == "RuralSparrow") %>% select(-LifestyleSpecies, -abundance)
+present2 <- aggregate_OTUsums %>% filter(abundance != 0 & LifestyleSpecies == "Human") %>% select(-LifestyleSpecies, -abundance)
+absent <- aggregate_OTUsums %>% filter(abundance == 0 & LifestyleSpecies == "UrbanSparrow") %>% select(-LifestyleSpecies, -abundance)
+
+
+match_df(present1, present2) %>% match_df(absent) %>% write_csv("figures/revisions/RuralSparrow_Human_UrbanSparrow_R10.csv")
+
+
+
+#combined all the pres/absent files in exel then read back into R to append the ASV sequences.
+read.csv("figures/revisions/Presence_absence.csv", header = TRUE) %>% mutate(taxa_id = ASV) %>% merge(x = ., y = ancom_refseq, by = "taxa_id", all.x = TRUE) %>% select(Catergories, ASV, Replicate, sequence) %>% write.csv(file = "figures/revisions/Presence_absence_seqs.csv")
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
